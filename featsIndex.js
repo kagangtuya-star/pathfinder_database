@@ -13,6 +13,7 @@ var featDict = {
     "abeyance":     {
         "key": "abeyance",
         "name": "Abeyance",
+        "name_zh": "暂停",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 28"]
     },
@@ -134,6 +135,7 @@ var featDict = {
     "acupuncture specialist":     {
         "key": "acupuncture specialist",
         "name": "Acupuncture Specialist",
+        "name_zh": "针灸专家",
         "source": ["Blood of the Ancients pg. 20"]
     },
     "acute shot":     {
@@ -195,6 +197,7 @@ var featDict = {
     "advanced armor training":     {
         "key": "advanced armor training",
         "name": "Advanced Armor Training",
+        "name_zh": "进阶盔甲训练",
         "descriptors": ["Combat"],
         "source": ["Armor Master's Handbook pg. 15"]
     },
@@ -229,6 +232,7 @@ var featDict = {
     "aerial roll":     {
         "key": "aerial roll",
         "name": "Aerial Roll",
+        "name_zh": "凌空转体",
         "descriptors": ["Combat"],
         "source": ["Blood of the Ancients pg. 26"]
     },
@@ -406,6 +410,7 @@ var featDict = {
     "aligned crafting":     {
         "key": "aligned crafting",
         "name": "Aligned Crafting",
+        "name_zh": "抵异作成",
         "descriptors": ["Item Creation"],
         "source": ["People of the Wastes pg. 26"],
         "prerequisiteKeys":         [
@@ -428,6 +433,7 @@ var featDict = {
     "all-consuming swing":     {
         "key": "all-consuming swing",
         "name": "All-Consuming Swing",
+        "name_zh": "自残旋风",
         "descriptors": ["Combat"],
         "source": ["The Harrow Handbook pg. 19"],
         "prerequisiteKeys":         [
@@ -549,12 +555,14 @@ var featDict = {
     "amplified rage":     {
         "key": "amplified rage",
         "name": "Amplified Rage",
+        "name_zh": "狂暴增幅",
         "descriptors": ["Teamwork"],
         "source": ["Orcs of Golarion pg. 24"]
     },
     "anatomical savant":     {
         "key": "anatomical savant",
         "name": "Anatomical Savant",
+        "name_zh": "解剖专家",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 19"],
         "prerequisiteKeys": ["weapon focus"]
@@ -569,6 +577,7 @@ var featDict = {
     "ancestral scorn":     {
         "key": "ancestral scorn",
         "name": "Ancestral Scorn",
+        "name_zh": "先祖的蔑视",
         "source": ["Blood of Fiends pg. 24"]
     },
     "ancestral weapon mastery":     {
@@ -585,6 +594,7 @@ var featDict = {
     "ancient tradition":     {
         "key": "ancient tradition",
         "name": "Ancient Tradition",
+        "name_zh": "古老传统",
         "source": ["Blood of the Ancients pg. 6"]
     },
     "andoren falconry":     {
@@ -704,6 +714,7 @@ var featDict = {
     "aquadynamic focus":     {
         "key": "aquadynamic focus",
         "name": "Aquadynamic Focus",
+        "name_zh": "水下战斗专攻",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 57"],
         "prerequisiteKeys": ["weapon focus"]
@@ -711,6 +722,7 @@ var featDict = {
     "aquadynamic shot":     {
         "key": "aquadynamic shot",
         "name": "Aquadynamic Shot",
+        "name_zh": "水下射击",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 57"],
         "prerequisiteKeys":         [
@@ -906,6 +918,7 @@ var featDict = {
     "arcing weapon":     {
         "key": "arcing weapon",
         "name": "Arcing Weapon",
+        "name_zh": "弧光武器",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 8"]
     },
@@ -937,6 +950,7 @@ var featDict = {
     "arming grab":     {
         "key": "arming grab",
         "name": "Arming Grab",
+        "name_zh": "擒武",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -1042,6 +1056,7 @@ var featDict = {
     "artillery team":     {
         "key": "artillery team",
         "name": "Artillery Team",
+        "name_zh": "重火力小组",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -1136,11 +1151,13 @@ var featDict = {
     "astrological timing":     {
         "key": "astrological timing",
         "name": "Astrological Timing",
+        "name_zh": "占星时机",
         "source": ["People of the Stars pg. 27"]
     },
     "asura sight":     {
         "key": "asura sight",
         "name": "Asura Sight",
+        "name_zh": "阿修罗天眼",
         "descriptors": ["Combat"],
         "source": ["Plane-Hopper's Handbook pg. 8"],
         "prerequisiteKeys": ["asura style"]
@@ -1148,6 +1165,7 @@ var featDict = {
     "asura spellrend":     {
         "key": "asura spellrend",
         "name": "Asura Spellrend",
+        "name_zh": "阿修罗破法",
         "descriptors": ["Combat"],
         "source": ["Plane-Hopper's Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -1158,6 +1176,7 @@ var featDict = {
     "asura style":     {
         "key": "asura style",
         "name": "Asura Style",
+        "name_zh": "阿修罗之型",
         "descriptors":         [
             "Combat",
             "Style"
@@ -1383,6 +1402,7 @@ var featDict = {
     "baneful judgment":     {
         "key": "baneful judgment",
         "name": "Baneful Judgment",
+        "name_zh": "破敌审判",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 5"]
     },
@@ -1394,7 +1414,7 @@ var featDict = {
     "banishing critical":     {
         "key": "banishing critical",
         "name": "Banishing Critical",
-        "name_zh": "驱逐重击",
+        "name_zh": "放逐重击",
         "descriptors": ["Critical"],
         "source":         [
             "Monster Summoner's Handbook pg. 8",
@@ -1408,12 +1428,14 @@ var featDict = {
     "banner of doom":     {
         "key": "banner of doom",
         "name": "Banner of Doom",
+        "name_zh": "毁灭之旗",
         "descriptors": ["Combat"],
         "source": ["Blood of Fiends pg. 24"]
     },
     "barracuda dash":     {
         "key": "barracuda dash",
         "name": "Barracuda Dash",
+        "name_zh": "梭鱼强袭",
         "descriptors": ["Combat"],
         "source": ["Pathfinder #124: City in the Deep pg. 81"],
         "prerequisiteKeys":         [
@@ -1425,6 +1447,7 @@ var featDict = {
     "barracuda slam":     {
         "key": "barracuda slam",
         "name": "Barracuda Slam",
+        "name_zh": "梭鱼猛击",
         "descriptors": ["Combat"],
         "source": ["Pathfinder #124: City in the Deep pg. 81"],
         "prerequisiteKeys":         [
@@ -1435,6 +1458,7 @@ var featDict = {
     "barracuda style":     {
         "key": "barracuda style",
         "name": "Barracuda Style",
+        "name_zh": "梭鱼流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -1480,11 +1504,13 @@ var featDict = {
     "bat shape":     {
         "key": "bat shape",
         "name": "Bat Shape",
+        "name_zh": "蝙蝠化形",
         "source": ["Blood of the Moon pg. 9"]
     },
     "battering ram":     {
         "key": "battering ram",
         "name": "Battering Ram",
+        "name_zh": "暴力修复",
         "descriptors": ["Grit"],
         "source": ["People of the Wastes pg. 10"],
         "prerequisiteKeys": ["amateur gunslinger"]
@@ -1492,6 +1518,7 @@ var featDict = {
     "battle cry (dtt)":     {
         "key": "battle cry (dtt)",
         "name": "Battle Cry (DTT)",
+        "name_zh": "战吼",
         "source": ["Dirty Tactics Toolbox pg. 13"]
     },
     "battle cry":     {
@@ -1504,6 +1531,7 @@ var featDict = {
     "battle planner":     {
         "key": "battle planner",
         "name": "Battle Planner",
+        "name_zh": "战场指挥官",
         "source": ["Chronicle of Legends pg. 8"]
     },
     "battle singer":     {
@@ -1527,6 +1555,7 @@ var featDict = {
     "bear hug":     {
         "key": "bear hug",
         "name": "Bear Hug",
+        "name_zh": "熊抱",
         "descriptors": ["Combat"],
         "source": ["Blood of the Moon pg. 11"],
         "prerequisiteKeys":         [
@@ -1537,6 +1566,7 @@ var featDict = {
     "bear's balance":     {
         "key": "bear's balance",
         "name": "Bear's Balance",
+        "name_zh": "熊之平衡",
         "descriptors": ["Combat"],
         "source": ["The Harrow Handbook pg. 19"],
         "prerequisiteKeys": ["iron will"]
@@ -1544,6 +1574,7 @@ var featDict = {
     "beartrap bite":     {
         "key": "beartrap bite",
         "name": "Beartrap Bite",
+        "name_zh": "陷阱熊咬",
         "descriptors": ["Combat"],
         "source": ["Blood of the Moon pg. 11"],
         "prerequisiteKeys": ["weapon focus"]
@@ -1661,6 +1692,7 @@ var featDict = {
     "benthic spell":     {
         "key": "benthic spell",
         "name": "Benthic Spell",
+        "name_zh": "深海法术",
         "descriptors": ["Metamagic"],
         "source": ["Elemental Master's Handbook pg. 14"]
     },
@@ -1699,6 +1731,7 @@ var featDict = {
     "betrayed":     {
         "key": "betrayed",
         "name": "Betrayed",
+        "name_zh": "遭受背叛",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 8"]
     },
@@ -1715,6 +1748,7 @@ var featDict = {
     "betraying blow":     {
         "key": "betraying blow",
         "name": "Betraying Blow",
+        "name_zh": "叛逆打击",
         "descriptors": ["Combat"],
         "source": ["Bastards of Golarion pg. 23"],
         "prerequisiteKeys": ["solo maneuvers"]
@@ -1732,6 +1766,7 @@ var featDict = {
     "bilge rat":     {
         "key": "bilge rat",
         "name": "Bilge Rat",
+        "name_zh": "舱底之鼠",
         "source": ["Elemental Master's Handbook pg. 15"]
     },
     "binding throw":     {
@@ -1749,6 +1784,7 @@ var featDict = {
     "biological lattice":     {
         "key": "biological lattice",
         "name": "Biological Lattice",
+        "name_zh": "生物栅格",
         "source": ["Legacy of the First World pg. 8"]
     },
     "black cat":     {
@@ -1760,11 +1796,13 @@ var featDict = {
     "black market dealings":     {
         "key": "black market dealings",
         "name": "Black Market Dealings",
+        "name_zh": "黑市交易高手",
         "source": ["Black Markets pg. 7"]
     },
     "black market sleuth":     {
         "key": "black market sleuth",
         "name": "Black Market Sleuth",
+        "name_zh": "黑市侦探",
         "source": ["Black Markets pg. 7"]
     },
     "black marketeer":     {
@@ -1936,6 +1974,7 @@ var featDict = {
     "blinded blade style":     {
         "key": "blinded blade style",
         "name": "Blinded Blade Style",
+        "name_zh": "盲刃流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -1946,6 +1985,7 @@ var featDict = {
     "blinded competence":     {
         "key": "blinded competence",
         "name": "Blinded Competence",
+        "name_zh": "盲眼之技",
         "descriptors": ["Combat"],
         "source": ["Blood of Shadows pg. 24"],
         "prerequisiteKeys":         [
@@ -1957,6 +1997,7 @@ var featDict = {
     "blinded master":     {
         "key": "blinded master",
         "name": "Blinded Master",
+        "name_zh": "盲眼宗师",
         "descriptors": ["Combat"],
         "source": ["Blood of Shadows pg. 24"],
         "prerequisiteKeys":         [
@@ -1989,17 +2030,20 @@ var featDict = {
     "blinding light":     {
         "key": "blinding light",
         "name": "Blinding Light",
+        "name_zh": "炫目光辉",
         "source": ["Blood of Angels pg. 24"]
     },
     "blinding sneak attack":     {
         "key": "blinding sneak attack",
         "name": "Blinding Sneak Attack",
+        "name_zh": "致盲偷袭",
         "descriptors": ["Combat"],
         "source": ["Blood of Fiends pg. 24"]
     },
     "blinding stare":     {
         "key": "blinding stare",
         "name": "Blinding Stare",
+        "name_zh": "致盲注视",
         "descriptors":         [
             "Combat",
             "Stare"
@@ -2084,6 +2128,7 @@ var featDict = {
     "blood frenzy assault":     {
         "key": "blood frenzy assault",
         "name": "Blood Frenzy Assault",
+        "name_zh": "血怒袭",
         "descriptors": ["Combat"],
         "source": ["Heroes from the Fringe pg. 31"],
         "prerequisiteKeys":         [
@@ -2097,6 +2142,7 @@ var featDict = {
     "blood frenzy strike":     {
         "key": "blood frenzy strike",
         "name": "Blood Frenzy Strike",
+        "name_zh": "血怒击",
         "descriptors": ["Combat"],
         "source": ["Heroes from the Fringe pg. 31"],
         "prerequisiteKeys":         [
@@ -2108,6 +2154,7 @@ var featDict = {
     "blood frenzy style":     {
         "key": "blood frenzy style",
         "name": "Blood Frenzy Style",
+        "name_zh": "血怒流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -2181,6 +2228,7 @@ var featDict = {
     "bloodmarked flight":     {
         "key": "bloodmarked flight",
         "name": "Bloodmarked Flight",
+        "name_zh": "血印滑翔",
         "source": ["Blood of the Moon pg. 9"]
     },
     "bloodstone manhunter":     {
@@ -2228,6 +2276,7 @@ var featDict = {
     "blowout shot deed":     {
         "key": "blowout shot deed",
         "name": "Blowout Shot Deed",
+        "name_zh": "轰退射击炫技",
         "descriptors": ["Grit"],
         "source": ["Magical Marketplace pg. 22"]
     },
@@ -2249,6 +2298,7 @@ var featDict = {
     "blunt blade":     {
         "key": "blunt blade",
         "name": "Blunt Blade",
+        "name_zh": "钝刃",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 28"]
     },
@@ -2355,6 +2405,7 @@ var featDict = {
     "bonded mind":     {
         "key": "bonded mind",
         "name": "Bonded Mind",
+        "name_zh": "心灵羁绊",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"]
     },
@@ -2415,6 +2466,7 @@ var featDict = {
     "bouncing trick":     {
         "key": "bouncing trick",
         "name": "Bouncing Trick",
+        "name_zh": "游荡诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 16"]
     },
@@ -2438,6 +2490,7 @@ var featDict = {
     "brackish spell":     {
         "key": "brackish spell",
         "name": "Brackish Spell",
+        "name_zh": "咸水法术",
         "descriptors": ["Metamagic"],
         "source": ["Elemental Master's Handbook pg. 15"]
     },
@@ -2583,6 +2636,7 @@ var featDict = {
     "brood defender":     {
         "key": "brood defender",
         "name": "Brood Defender",
+        "name_zh": "巢穴守卫者",
         "source": ["Legacy of Dragons pg. 19"],
         "prerequisiteKeys":         [
             "bodyguard",
@@ -2719,6 +2773,7 @@ var featDict = {
     "bull's eye":     {
         "key": "bull's eye",
         "name": "Bull's Eye",
+        "name_zh": "牛眼",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"],
         "prerequisiteKeys":         [
@@ -2731,6 +2786,7 @@ var featDict = {
     "bull-catcher style":     {
         "key": "bull-catcher style",
         "name": "Bull-Catcher Style",
+        "name_zh": "斗牛式",
         "descriptors":         [
             "Combat",
             "Style"
@@ -2744,6 +2800,7 @@ var featDict = {
     "bull-catcher toss":     {
         "key": "bull-catcher toss",
         "name": "Bull-Catcher Toss",
+        "name_zh": "投牛手",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 8"],
         "prerequisiteKeys":         [
@@ -2755,6 +2812,7 @@ var featDict = {
     "bull-catcher wrangler":     {
         "key": "bull-catcher wrangler",
         "name": "Bull-Catcher Wrangler",
+        "name_zh": "牧牛人",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -2884,6 +2942,7 @@ var featDict = {
     "call out":     {
         "key": "call out",
         "name": "Call Out",
+        "name_zh": "怒嚎挑战",
         "descriptors": ["Combat"],
         "source": ["People of the River pg. 12"]
     },
@@ -2982,6 +3041,7 @@ var featDict = {
     "caster's champion":     {
         "key": "caster's champion",
         "name": "Caster's Champion",
+        "name_zh": "术师先锋",
         "descriptors": ["Combat"],
         "source": ["Path of the Hellknight pg. 21"]
     },
@@ -3028,6 +3088,7 @@ var featDict = {
     "cataract":     {
         "key": "cataract",
         "name": "Cataract",
+        "name_zh": "白内障",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
@@ -3075,6 +3136,7 @@ var featDict = {
     "celestial guidance":     {
         "key": "celestial guidance",
         "name": "Celestial Guidance",
+        "name_zh": "天体指引",
         "source": ["People of the Stars pg. 27"]
     },
     "celestial obedience":     {
@@ -3091,6 +3153,7 @@ var featDict = {
     "censoring critical":     {
         "key": "censoring critical",
         "name": "Censoring Critical",
+        "name_zh": "审查重击",
         "descriptors":         [
             "Combat",
             "Critical"
@@ -3106,12 +3169,14 @@ var featDict = {
     "centered spell":     {
         "key": "centered spell",
         "name": "Centered Spell",
+        "name_zh": "中空法术",
         "descriptors": ["Metamagic"],
         "source": ["Legacy of the First World pg. 23"]
     },
     "cerberus crush":     {
         "key": "cerberus crush",
         "name": "Cerberus Crush",
+        "name_zh": "三头犬碾压",
         "descriptors": ["Combat"],
         "source": ["Plane-Hopper's Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -3123,6 +3188,7 @@ var featDict = {
     "cerberus snare":     {
         "key": "cerberus snare",
         "name": "Cerberus Snare",
+        "name_zh": "三头犬罗网",
         "descriptors": ["Combat"],
         "source": ["Plane-Hopper's Handbook pg. 9"],
         "prerequisiteKeys": ["cerberus style"]
@@ -3130,6 +3196,7 @@ var featDict = {
     "cerberus style":     {
         "key": "cerberus style",
         "name": "Cerberus Style",
+        "name_zh": "三头犬流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -3163,6 +3230,7 @@ var featDict = {
     "chairbreaker":     {
         "key": "chairbreaker",
         "name": "Chairbreaker",
+        "name_zh": "碎物者",
         "descriptors": ["Combat"],
         "source": ["Champions of Corruption pg. 23"],
         "prerequisiteKeys": ["catch off-guard"]
@@ -3265,11 +3333,13 @@ var featDict = {
     "change of heart":     {
         "key": "change of heart",
         "name": "Change of Heart",
+        "name_zh": "回心转意",
         "source": ["Martial Arts Handbook pg. 26"]
     },
     "changeling familiar":     {
         "key": "changeling familiar",
         "name": "Changeling Familiar",
+        "name_zh": "化形魔宠",
         "source": ["Wilderness Origins pg. 21"]
     },
     "channel deific essence":     {
@@ -3319,6 +3389,7 @@ var featDict = {
     "channel spirit":     {
         "key": "channel spirit",
         "name": "Channel Spirit",
+        "name_zh": "英灵受体",
         "source": ["Haunted Heroes Handbook pg. 24"],
         "prerequisiteKeys": ["spirit ridden"]
     },
@@ -3409,6 +3480,7 @@ var featDict = {
     "charging stag style":     {
         "key": "charging stag style",
         "name": "Charging Stag Style",
+        "name_zh": "鹿冲流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -3444,6 +3516,7 @@ var featDict = {
     "child of two worlds":     {
         "key": "child of two worlds",
         "name": "Child of Two Worlds",
+        "name_zh": "两个世界的孩子",
         "descriptors": ["Story"],
         "source": ["Aquatic Adventures pg. 57"]
     },
@@ -3469,11 +3542,13 @@ var featDict = {
     "chimeric adept":     {
         "key": "chimeric adept",
         "name": "Chimeric Adept",
+        "name_zh": "奇美拉行家",
         "source": ["Wilderness Origins pg. 8"]
     },
     "chimeric master":     {
         "key": "chimeric master",
         "name": "Chimeric Master",
+        "name_zh": "奇美拉大师",
         "source": ["Wilderness Origins pg. 8"],
         "prerequisiteKeys": ["chimeric adept"]
     },
@@ -3500,6 +3575,7 @@ var featDict = {
     "choral support":     {
         "key": "choral support",
         "name": "Choral Support",
+        "name_zh": "合唱支援",
         "descriptors": ["Teamwork"],
         "source": ["Distant Realms pg. 32"]
     },
@@ -3556,6 +3632,7 @@ var featDict = {
     "city-locked":     {
         "key": "city-locked",
         "name": "City-Locked",
+        "name_zh": "困于城中",
         "descriptors": ["Story"],
         "source": ["Legacy of the First World pg. 5"]
     },
@@ -3686,6 +3763,7 @@ var featDict = {
     "cloak and dagger style":     {
         "key": "cloak and dagger style",
         "name": "Cloak and Dagger Style",
+        "name_zh": "蓬匕流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -3701,6 +3779,7 @@ var featDict = {
     "cloak and dagger subterfuge":     {
         "key": "cloak and dagger subterfuge",
         "name": "Cloak and Dagger Subterfuge",
+        "name_zh": "蓬匕伎",
         "descriptors": ["Combat"],
         "source": ["Blood of Shadows pg. 25"],
         "prerequisiteKeys":         [
@@ -3713,6 +3792,7 @@ var featDict = {
     "cloak and dagger tactics":     {
         "key": "cloak and dagger tactics",
         "name": "Cloak and Dagger Tactics",
+        "name_zh": "蓬匕策",
         "descriptors": ["Combat"],
         "source": ["Blood of Shadows pg. 25"],
         "prerequisiteKeys":         [
@@ -3828,6 +3908,7 @@ var featDict = {
     "collective recollection":     {
         "key": "collective recollection",
         "name": "Collective Recollection",
+        "name_zh": "集思广益",
         "descriptors": ["Teamwork"],
         "source": ["Pathfinder Society Primer pg. 11"]
     },
@@ -3899,6 +3980,7 @@ var featDict = {
     "combat rhythm":     {
         "key": "combat rhythm",
         "name": "Combat Rhythm",
+        "name_zh": "战斗韵律",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -3923,6 +4005,7 @@ var featDict = {
     "combat vigor":     {
         "key": "combat vigor",
         "name": "Combat Vigor",
+        "name_zh": "战斗活力",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 14"]
     },
@@ -3953,6 +4036,7 @@ var featDict = {
     "companion figurine":     {
         "key": "companion figurine",
         "name": "Companion Figurine",
+        "name_zh": "雕像伙伴",
         "source": ["Classic Treasures Revisited pg. 25"]
     },
     "compelling harmonies":     {
@@ -4038,12 +4122,14 @@ var featDict = {
     "conditional spell":     {
         "key": "conditional spell",
         "name": "Conditional Spell",
+        "name_zh": "限制法术",
         "descriptors": ["Metamagic"],
         "source": ["Healer's Handbook pg. 8"]
     },
     "conduit casting":     {
         "key": "conduit casting",
         "name": "Conduit Casting",
+        "name_zh": "法术导管",
         "descriptors": ["Teamwork"],
         "source": ["Legacy of the First World pg. 19"]
     },
@@ -4064,6 +4150,7 @@ var featDict = {
     "confusing stare":     {
         "key": "confusing stare",
         "name": "Confusing Stare",
+        "name_zh": "困惑注视",
         "descriptors":         [
             "Combat",
             "Stare"
@@ -4073,11 +4160,13 @@ var featDict = {
     "connected criminal":     {
         "key": "connected criminal",
         "name": "Connected Criminal",
+        "name_zh": "犯罪同伙",
         "source": ["Black Markets pg. 7"]
     },
     "consecrate spell":     {
         "key": "consecrate spell",
         "name": "Consecrate Spell",
+        "name_zh": "法术祝圣",
         "descriptors": ["Metamagic"],
         "source": ["Blood of Angels pg. 25"]
     },
@@ -4096,6 +4185,7 @@ var featDict = {
     "consume power":     {
         "key": "consume power",
         "name": "Consume Power",
+        "name_zh": "竭耗力量",
         "source": ["Heroes of Golarion pg. 6"]
     },
     "consume undeath":     {
@@ -4106,6 +4196,7 @@ var featDict = {
     "consumption":     {
         "key": "consumption",
         "name": "Consumption",
+        "name_zh": "耗尽",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
@@ -4126,12 +4217,14 @@ var featDict = {
     "contingent spell":     {
         "key": "contingent spell",
         "name": "Contingent Spell",
+        "name_zh": "触发医疗法术",
         "descriptors": ["Metamagic"],
         "source": ["Healer's Handbook pg. 14"]
     },
     "contingent trick":     {
         "key": "contingent trick",
         "name": "Contingent Trick",
+        "name_zh": "触发诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 16"]
     },
@@ -4153,6 +4246,7 @@ var featDict = {
     "conviction":     {
         "key": "conviction",
         "name": "Conviction",
+        "name_zh": "信念加持",
         "source": ["Blood of the Night pg. 28"]
     },
     "convincing persona":     {
@@ -4192,12 +4286,14 @@ var featDict = {
     "cooperative swarmer":     {
         "key": "cooperative swarmer",
         "name": "Cooperative Swarmer",
+        "name_zh": "合作鼠群",
         "descriptors": ["Combat"],
         "source": ["Blood of the Beast pg. 22"]
     },
     "coordinated blast":     {
         "key": "coordinated blast",
         "name": "Coordinated Blast",
+        "name_zh": "协调轰击",
         "descriptors": ["Teamwork"],
         "source": ["Inner Sea Races pg. 204"]
     },
@@ -4385,6 +4481,7 @@ var featDict = {
     "courage in numbers":     {
         "key": "courage in numbers",
         "name": "Courage in Numbers",
+        "name_zh": "人多胆壮",
         "descriptors": ["Teamwork"],
         "source": ["Dragonslayer's Handbook pg. 21"],
         "prerequisiteKeys": ["iron will"]
@@ -4403,6 +4500,7 @@ var featDict = {
     "coven-touched":     {
         "key": "coven-touched",
         "name": "Coven-Touched",
+        "name_zh": "战团之触",
         "source": ["Blood of the Coven pg. 13"]
     },
     "cover tracks":     {
@@ -4437,6 +4535,7 @@ var featDict = {
     "covering shield":     {
         "key": "covering shield",
         "name": "Covering Shield",
+        "name_zh": "盾牌掩护",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -4447,6 +4546,7 @@ var featDict = {
     "cracking the shell":     {
         "key": "cracking the shell",
         "name": "Cracking the Shell",
+        "name_zh": "滴水穿石",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -4481,6 +4581,7 @@ var featDict = {
     "craft ooze":     {
         "key": "craft ooze",
         "name": "Craft Ooze",
+        "name_zh": "创造泥怪",
         "descriptors": ["Item Creation"],
         "source": ["Alchemy Manual pg. 22"],
         "prerequisiteKeys":         [
@@ -4497,6 +4598,7 @@ var featDict = {
     "craft poppet":     {
         "key": "craft poppet",
         "name": "Craft Poppet",
+        "name_zh": "制造人偶",
         "descriptors": ["Item Creation"],
         "source": ["Adventurer's Armory 2 pg. 31"]
     },
@@ -4520,6 +4622,7 @@ var featDict = {
     "craft shadow piercing":     {
         "key": "craft shadow piercing",
         "name": "Craft Shadow Piercing",
+        "name_zh": "制造影钉",
         "descriptors": ["Item Creation"],
         "source": ["Champions of Corruption pg. 28"]
     },
@@ -4663,6 +4766,7 @@ var featDict = {
     "create enhanced firearm":     {
         "key": "create enhanced firearm",
         "name": "Create Enhanced Firearm",
+        "name_zh": "制造强化火器",
         "descriptors": ["Item Creation"],
         "source": ["People of the Wastes pg. 26"],
         "prerequisiteKeys":         [
@@ -4699,11 +4803,13 @@ var featDict = {
     "creature focus":     {
         "key": "creature focus",
         "name": "Creature Focus",
+        "name_zh": "生物专攻",
         "source": ["Monster Hunter's Handbook pg. 22"]
     },
     "crepuscular cowl":     {
         "key": "crepuscular cowl",
         "name": "Crepuscular Cowl",
+        "name_zh": "黄昏兜帽",
         "source": ["Blood of Shadows pg. 7"]
     },
     "criminal reputation":     {
@@ -4733,12 +4839,14 @@ var featDict = {
     "crisis of conscience":     {
         "key": "crisis of conscience",
         "name": "Crisis of Conscience",
+        "name_zh": "道德危机",
         "descriptors": ["Story"],
         "source": ["Champions of Balance pg. 5"]
     },
     "critical conduit":     {
         "key": "critical conduit",
         "name": "Critical Conduit",
+        "name_zh": "重击导魔",
         "source": ["Animal Archive pg. 18"]
     },
     "critical focus":     {
@@ -4838,6 +4946,7 @@ var featDict = {
     "crushing impact":     {
         "key": "crushing impact",
         "name": "Crushing Impact",
+        "name_zh": "破碎冲击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -4937,6 +5046,7 @@ var featDict = {
     "cunning killer":     {
         "key": "cunning killer",
         "name": "Cunning Killer",
+        "name_zh": "狡猾猎人",
         "source": ["Blood of the Beast pg. 11"]
     },
     "cunning":     {
@@ -4948,12 +5058,14 @@ var featDict = {
     "curative mastery":     {
         "key": "curative mastery",
         "name": "Curative Mastery",
+        "name_zh": "治愈掌握",
         "descriptors": ["Item Mastery"],
         "source": ["Healer's Handbook pg. 14"]
     },
     "curious companion":     {
         "key": "curious companion",
         "name": "Curious Companion",
+        "name_zh": "奇特伙伴",
         "source": ["Wilderness Origins pg. 21"]
     },
     "curse mastery":     {
@@ -4983,6 +5095,7 @@ var featDict = {
     "cursed love":     {
         "key": "cursed love",
         "name": "Cursed Love",
+        "name_zh": "受诅之爱",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 8"]
     },
@@ -5018,6 +5131,7 @@ var featDict = {
     "cut your losses":     {
         "key": "cut your losses",
         "name": "Cut Your Losses",
+        "name_zh": "快速转进",
         "source": ["Pathfinder Society Primer pg. 15"]
     },
     "cutting humiliation":     {
@@ -5152,6 +5266,7 @@ var featDict = {
     "darting viper":     {
         "key": "darting viper",
         "name": "Darting Viper",
+        "name_zh": "铁蟒出洞",
         "descriptors": ["Combat"],
         "source":         [
             "Adventurer's Armory 2 pg. 11",
@@ -5226,19 +5341,25 @@ var featDict = {
     "dead inside":     {
         "key": "dead inside",
         "name": "Dead Inside",
+        "name_zh": "内心已死",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 8"]
     },
     "deadhand initiate":     {
         "key": "deadhand initiate",
         "name": "Deadhand Initiate",
+        "name_zh": "死手汲能",
         "descriptors": ["Combat"],
         "source": ["Horror Adventures pg. 84"],
-        "prerequisiteKeys": ["improved unarmed strike"]
+        "prerequisiteKeys":         [
+            "deadhand style",
+            "improved unarmed strike"
+        ]
     },
     "deadhand master":     {
         "key": "deadhand master",
         "name": "Deadhand Master",
+        "name_zh": "死手宗师",
         "descriptors": ["Combat"],
         "source": ["Horror Adventures pg. 84"],
         "prerequisiteKeys":         [
@@ -5250,6 +5371,7 @@ var featDict = {
     "deadhand style":     {
         "key": "deadhand style",
         "name": "Deadhand Style",
+        "name_zh": "死手流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -5267,7 +5389,7 @@ var featDict = {
     "deadly dealer":     {
         "key": "deadly dealer",
         "name": "Deadly Dealer",
-        "name_zh": "致命发牌",
+        "name_zh": "致命发牌者",
         "source":         [
             "The Harrow Handbook pg. 15",
             "Varisia, Birthplace of Legends pg. 10"
@@ -5362,6 +5484,7 @@ var featDict = {
     "death from below":     {
         "key": "death from below",
         "name": "Death from Below",
+        "name_zh": "死自下现",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"]
     },
@@ -5461,6 +5584,7 @@ var featDict = {
     "decoy's misdirection":     {
         "key": "decoy's misdirection",
         "name": "Decoy's Misdirection",
+        "name_zh": "饵宠的诱导",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 18"]
     },
@@ -5474,6 +5598,7 @@ var featDict = {
     "deep breath":     {
         "key": "deep breath",
         "name": "Deep Breath",
+        "name_zh": "深呼吸",
         "source": ["Aquatic Adventures pg. 57"]
     },
     "deep diver":     {
@@ -5588,6 +5713,7 @@ var featDict = {
     "delayed potion":     {
         "key": "delayed potion",
         "name": "Delayed Potion",
+        "name_zh": "延迟药水",
         "source": ["Potions and Poisons pg. 16"],
         "prerequisiteKeys": ["brew potion"]
     },
@@ -5808,6 +5934,7 @@ var featDict = {
     "destructive persuasion":     {
         "key": "destructive persuasion",
         "name": "Destructive Persuasion",
+        "name_zh": "毁灭劝服",
         "descriptors": ["Combat"],
         "source": ["Champions of Corruption pg. 23"],
         "prerequisiteKeys": ["power attack"]
@@ -5933,6 +6060,7 @@ var featDict = {
     "dilettante":     {
         "key": "dilettante",
         "name": "Dilettante",
+        "name_zh": "通才",
         "source": ["Seekers of Secrets pg. 17"]
     },
     "dimensional agility":     {
@@ -6010,6 +6138,7 @@ var featDict = {
     "dimensional step up":     {
         "key": "dimensional step up",
         "name": "Dimensional Step Up",
+        "name_zh": "次元跟进",
         "source": ["Monster Hunter's Handbook pg. 19"],
         "prerequisiteKeys":         [
             "dimensional agility",
@@ -6025,6 +6154,7 @@ var featDict = {
     "dire bat shape":     {
         "key": "dire bat shape",
         "name": "Dire Bat Shape",
+        "name_zh": "凶暴蝙蝠化形",
         "source": ["Blood of the Moon pg. 9"],
         "prerequisiteKeys": ["bat shape"]
     },
@@ -6090,6 +6220,7 @@ var featDict = {
     "dirty trick master":     {
         "key": "dirty trick master",
         "name": "Dirty Trick Master",
+        "name_zh": "阴招大师",
         "descriptors": ["Combat"],
         "source": ["Bastards of Golarion pg. 25"],
         "prerequisiteKeys":         [
@@ -6229,6 +6360,7 @@ var featDict = {
     "dislocate":     {
         "key": "dislocate",
         "name": "Dislocate",
+        "name_zh": "卸骨脱逃",
         "source": ["Path of the Hellknight pg. 45"]
     },
     "disorienting blow":     {
@@ -6268,6 +6400,7 @@ var featDict = {
     "dispelling blood":     {
         "key": "dispelling blood",
         "name": "Dispelling Blood",
+        "name_zh": "解法之血",
         "source": ["Potions and Poisons pg. 6"]
     },
     "dispelling critical":     {
@@ -6364,6 +6497,7 @@ var featDict = {
     "distant spell link":     {
         "key": "distant spell link",
         "name": "Distant Spell Link",
+        "name_zh": "远距法术链接",
         "source": ["Ranged Tactics Toolbox pg. 12"],
         "prerequisiteKeys":         [
             "enlarge spell",
@@ -6423,6 +6557,7 @@ var featDict = {
     "diverse obedience":     {
         "key": "diverse obedience",
         "name": "Diverse Obedience",
+        "name_zh": "多样尊崇",
         "source": ["Divine Anthology pg. 11"],
         "prerequisiteKeys": ["deific obedience"]
     },
@@ -6471,6 +6606,7 @@ var featDict = {
     "divine communion":     {
         "key": "divine communion",
         "name": "Divine Communion",
+        "name_zh": "信仰沟通",
         "source": ["Divine Anthology pg. 11"]
     },
     "divine deception":     {
@@ -6595,6 +6731,7 @@ var featDict = {
     "dolphin circle":     {
         "key": "dolphin circle",
         "name": "Dolphin Circle",
+        "name_zh": "海豚环杀",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 57"],
         "prerequisiteKeys":         [
@@ -6606,6 +6743,7 @@ var featDict = {
     "dolphin dart":     {
         "key": "dolphin dart",
         "name": "Dolphin Dart",
+        "name_zh": "海豚突进",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 57"],
         "prerequisiteKeys":         [
@@ -6616,6 +6754,7 @@ var featDict = {
     "dolphin style":     {
         "key": "dolphin style",
         "name": "Dolphin Style",
+        "name_zh": "海豚流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -6634,6 +6773,7 @@ var featDict = {
     "domino crash":     {
         "key": "domino crash",
         "name": "Domino Crash",
+        "name_zh": "多米诺冲撞",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -6645,6 +6785,7 @@ var featDict = {
     "dorn-dergar master":     {
         "key": "dorn-dergar master",
         "name": "Dorn-Dergar Master",
+        "name_zh": "链锤大师",
         "descriptors": ["Combat"],
         "source":         [
             "Adventurer's Armory 2 pg. 11",
@@ -6670,6 +6811,7 @@ var featDict = {
     "draconian law":     {
         "key": "draconian law",
         "name": "Draconian Law",
+        "name_zh": "龙人秩序",
         "source": ["Legacy of Dragons pg. 19"]
     },
     "draconic aspect":     {
@@ -6774,6 +6916,7 @@ var featDict = {
     "dragon shot":     {
         "key": "dragon shot",
         "name": "Dragon Shot",
+        "name_zh": "龙击枪",
         "descriptors":         [
             "Combat",
             "Grit"
@@ -6794,6 +6937,7 @@ var featDict = {
     "dragon-touched":     {
         "key": "dragon-touched",
         "name": "Dragon-Touched",
+        "name_zh": "龙触者",
         "descriptors": ["Story"],
         "source": ["Dragonslayer's Handbook pg. 13"]
     },
@@ -6811,6 +6955,7 @@ var featDict = {
     "dragonflight flight":     {
         "key": "dragonflight flight",
         "name": "Dragonflight Flight",
+        "name_zh": "蜻蜓飞舞",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 14"],
         "prerequisiteKeys":         [
@@ -6822,6 +6967,7 @@ var featDict = {
     "dragonfly style":     {
         "key": "dragonfly style",
         "name": "Dragonfly Style",
+        "name_zh": "蜻蜓流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -6832,6 +6978,7 @@ var featDict = {
     "dragonfly wings":     {
         "key": "dragonfly wings",
         "name": "Dragonfly Wings",
+        "name_zh": "蜻蜓之翼",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 14"],
         "prerequisiteKeys":         [
@@ -6842,11 +6989,13 @@ var featDict = {
     "dragonheart":     {
         "key": "dragonheart",
         "name": "Dragonheart",
+        "name_zh": "龙之心",
         "source": ["Dragonslayer's Handbook pg. 25"]
     },
     "dragonslayer":     {
         "key": "dragonslayer",
         "name": "Dragonslayer",
+        "name_zh": "屠龙者",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"]
     },
@@ -6872,6 +7021,7 @@ var featDict = {
     "dramatic slam":     {
         "key": "dramatic slam",
         "name": "Dramatic Slam",
+        "name_zh": "戏剧摔投",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -6911,6 +7061,7 @@ var featDict = {
     "drinking buddy":     {
         "key": "drinking buddy",
         "name": "Drinking Buddy",
+        "name_zh": "酒友",
         "descriptors": ["Teamwork"],
         "source": ["Inner Sea Taverns pg. 58"]
     },
@@ -6951,11 +7102,13 @@ var featDict = {
     "drunken god's blessings":     {
         "key": "drunken god's blessings",
         "name": "Drunken God's Blessings",
+        "name_zh": "酒神祝福",
         "source": ["Inner Sea Taverns pg. 58"]
     },
     "drunken sing-along":     {
         "key": "drunken sing-along",
         "name": "Drunken Sing-Along",
+        "name_zh": "祝酒歌",
         "source": ["Inner Sea Taverns pg. 59"]
     },
     "dryad's apprentice":     {
@@ -6991,7 +7144,10 @@ var featDict = {
             "Panache"
         ],
         "source": ["Advanced Class Guide pg. 145"],
-        "prerequisiteKeys": ["dodge"]
+        "prerequisiteKeys":         [
+            "amateur swashbuckler",
+            "dodge"
+        ]
     },
     "duelist of the roaring falls":     {
         "key": "duelist of the roaring falls",
@@ -7203,6 +7359,7 @@ var featDict = {
     "eerily centered":     {
         "key": "eerily centered",
         "name": "Eerily Centered",
+        "name_zh": "奇异专注",
         "source": ["Legacy of the First World pg. 6"]
     },
     "efficient focus shift":     {
@@ -7308,6 +7465,7 @@ var featDict = {
     "electric eel conduit":     {
         "key": "electric eel conduit",
         "name": "Electric Eel Conduit",
+        "name_zh": "电鳗导管",
         "descriptors": ["Combat"],
         "source": ["Blood of the Sea pg. 10"],
         "prerequisiteKeys":         [
@@ -7320,6 +7478,7 @@ var featDict = {
     "electric eel shock":     {
         "key": "electric eel shock",
         "name": "Electric Eel Shock",
+        "name_zh": "电鳗休克",
         "descriptors": ["Combat"],
         "source": ["Blood of the Sea pg. 10"],
         "prerequisiteKeys":         [
@@ -7331,6 +7490,7 @@ var featDict = {
     "electric eel style":     {
         "key": "electric eel style",
         "name": "Electric Eel Style",
+        "name_zh": "电鳗流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -7350,17 +7510,20 @@ var featDict = {
     "elemental claws":     {
         "key": "elemental claws",
         "name": "Elemental Claws",
+        "name_zh": "元素之爪",
         "source": ["Wilderness Origins pg. 9"]
     },
     "elemental commixture":     {
         "key": "elemental commixture",
         "name": "Elemental Commixture",
+        "name_zh": "元素融合",
         "descriptors": ["Teamwork"],
         "source": ["Blood of the Elements pg. 28"]
     },
     "elemental conversion":     {
         "key": "elemental conversion",
         "name": "Elemental Conversion",
+        "name_zh": "元素转化",
         "source": ["People of the Wastes pg. 6"]
     },
     "elemental fist":     {
@@ -7386,16 +7549,19 @@ var featDict = {
     "elemental ki":     {
         "key": "elemental ki",
         "name": "Elemental Ki",
+        "name_zh": "元素气池",
         "source": ["Martial Arts Handbook pg. 28"]
     },
     "elemental knowledge":     {
         "key": "elemental knowledge",
         "name": "Elemental Knowledge",
+        "name_zh": "元素学识",
         "source": ["Psychic Anthology pg. 24"]
     },
     "elemental overload":     {
         "key": "elemental overload",
         "name": "Elemental Overload",
+        "name_zh": "元素过载",
         "source": ["Psychic Anthology pg. 24"]
     },
     "elemental spell":     {
@@ -7511,17 +7677,20 @@ var featDict = {
     "embrace of the dark fey":     {
         "key": "embrace of the dark fey",
         "name": "Embrace of the Dark Fey",
+        "name_zh": "拥抱黑暗精类",
         "descriptors": ["Story"],
         "source": ["Legacy of the First World pg. 5"]
     },
     "emergency attunement":     {
         "key": "emergency attunement",
         "name": "Emergency Attunement",
+        "name_zh": "紧急调整",
         "source": ["Pathfinder Society Primer pg. 13"]
     },
     "emissary's emboldening":     {
         "key": "emissary's emboldening",
         "name": "Emissary's Emboldening",
+        "name_zh": "神使之鼓舞",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -7606,6 +7775,7 @@ var featDict = {
     "empty threats":     {
         "key": "empty threats",
         "name": "Empty Threats",
+        "name_zh": "虚张声势",
         "source": ["Blood of the Beast pg. 27"]
     },
     "encouraging spell":     {
@@ -7629,6 +7799,7 @@ var featDict = {
     "enduring might":     {
         "key": "enduring might",
         "name": "Enduring Might",
+        "name_zh": "持久力量",
         "source": ["Martial Arts Handbook pg. 29"],
         "prerequisiteKeys": ["gather might"]
     },
@@ -7770,6 +7941,7 @@ var featDict = {
     "entwining stare":     {
         "key": "entwining stare",
         "name": "Entwining Stare",
+        "name_zh": "纠缠注视",
         "descriptors": ["Stare"],
         "source": ["Blood of the Beast pg. 17"]
     },
@@ -7782,6 +7954,7 @@ var featDict = {
     "equipment trick":     {
         "key": "equipment trick",
         "name": "Equipment Trick",
+        "name_zh": "装备技法",
         "descriptors": ["Combat"],
         "source":         [
             "Heroes from the Fringe pg. 29",
@@ -7801,6 +7974,7 @@ var featDict = {
     "eroding strikes":     {
         "key": "eroding strikes",
         "name": "Eroding Strikes",
+        "name_zh": "侵蚀打击",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -7831,6 +8005,7 @@ var featDict = {
     "esoteric advantage":     {
         "key": "esoteric advantage",
         "name": "Esoteric Advantage",
+        "name_zh": "洞悉弱点",
         "source": ["Pathfinder Society Primer pg. 11"]
     },
     "esoteric conjuration":     {
@@ -7916,6 +8091,7 @@ var featDict = {
     "exceptional aid":     {
         "key": "exceptional aid",
         "name": "Exceptional Aid",
+        "name_zh": "额外援助",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"],
         "prerequisiteKeys": ["bonded mind"]
@@ -7998,6 +8174,7 @@ var featDict = {
     "expanded enhance arrows":     {
         "key": "expanded enhance arrows",
         "name": "Expanded Enhance Arrows",
+        "name_zh": "附魔箭拓展",
         "source": ["Chronicle of Legends pg. 8"]
     },
     "expanded fiendish resistance":     {
@@ -8009,6 +8186,7 @@ var featDict = {
     "expanded hunter tactics":     {
         "key": "expanded hunter tactics",
         "name": "Expanded Hunter Tactics",
+        "name_zh": "扩展猎人战术",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 5"]
     },
@@ -8074,6 +8252,7 @@ var featDict = {
     "experienced vagabond":     {
         "key": "experienced vagabond",
         "name": "Experienced Vagabond",
+        "name_zh": "资深流民",
         "source": ["Taldor, Echoes of Glory pg. 28"]
     },
     "experimental spellcaster":     {
@@ -8152,6 +8331,7 @@ var featDict = {
     "explosive weapon":     {
         "key": "explosive weapon",
         "name": "Explosive Weapon",
+        "name_zh": "爆裂武器",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 8"],
         "prerequisiteKeys": ["arcing weapon"]
@@ -8159,6 +8339,7 @@ var featDict = {
     "expressionless":     {
         "key": "expressionless",
         "name": "Expressionless",
+        "name_zh": "面为木雕",
         "source": ["Heroes of Golarion pg. 6"]
     },
     "exquisite sneak":     {
@@ -8190,6 +8371,7 @@ var featDict = {
     "extend the bulwark":     {
         "key": "extend the bulwark",
         "name": "Extend the Bulwark",
+        "name_zh": "扩展壁垒",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -8220,6 +8402,7 @@ var featDict = {
     "extended combat meditation":     {
         "key": "extended combat meditation",
         "name": "Extended Combat Meditation",
+        "name_zh": "扩展战斗冥想",
         "descriptors":         [
             "Combat",
             "Meditation"
@@ -8233,6 +8416,7 @@ var featDict = {
     "extended scrying":     {
         "key": "extended scrying",
         "name": "Extended Scrying",
+        "name_zh": "延时探知",
         "source": ["Path of the Hellknight pg. 21"]
     },
     "extended stare":     {
@@ -8274,6 +8458,7 @@ var featDict = {
     "extra blood hex":     {
         "key": "extra blood hex",
         "name": "Extra Blood Hex",
+        "name_zh": "额外血巫术",
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
     "extra bombs":     {
@@ -8340,6 +8525,7 @@ var featDict = {
     "extra feature":     {
         "key": "extra feature",
         "name": "Extra Feature",
+        "name_zh": "额外特征",
         "source": ["Blood of the Moon pg. 7"]
     },
     "extra focus power":     {
@@ -8363,6 +8549,7 @@ var featDict = {
     "extra hail of arrows":     {
         "key": "extra hail of arrows",
         "name": "Extra Hail of Arrows",
+        "name_zh": "额外箭雨",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 9"]
     },
@@ -8404,6 +8591,7 @@ var featDict = {
     "extra item slot":     {
         "key": "extra item slot",
         "name": "Extra Item Slot",
+        "name_zh": "额外装备位",
         "source": ["Animal Archive pg. 18"]
     },
     "extra ki":     {
@@ -8450,6 +8638,7 @@ var featDict = {
     "extra ninja trick":     {
         "key": "extra ninja trick",
         "name": "Extra Ninja Trick",
+        "name_zh": "额外忍术",
         "source": ["Blood of Shadows pg. 25"]
     },
     "extra panache":     {
@@ -8516,6 +8705,7 @@ var featDict = {
     "extra spell synthesis":     {
         "key": "extra spell synthesis",
         "name": "Extra Spell Synthesis",
+        "name_zh": "额外法术融合",
         "source": ["Chronicle of Legends pg. 9"]
     },
     "extra spontaneous spell mastery":     {
@@ -8589,6 +8779,7 @@ var featDict = {
     "extreme mood swings":     {
         "key": "extreme mood swings",
         "name": "Extreme Mood Swings",
+        "name_zh": "极端情绪波动",
         "source": ["Inner Sea Taverns pg. 59"]
     },
     "extreme prejudice":     {
@@ -8635,6 +8826,7 @@ var featDict = {
     "fabulist":     {
         "key": "fabulist",
         "name": "Fabulist",
+        "name_zh": "大话王",
         "descriptors": ["Grit"],
         "source": ["Champions of Balance pg. 19"]
     },
@@ -8715,23 +8907,27 @@ var featDict = {
     "falter":     {
         "key": "falter",
         "name": "Falter",
+        "name_zh": "颤抖",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
     "familiar bond":     {
         "key": "familiar bond",
         "name": "Familiar Bond",
+        "name_zh": "魔宠契约",
         "source": ["Familiar Folio pg. 18"],
         "prerequisiteKeys": ["iron will"]
     },
     "familiar focus":     {
         "key": "familiar focus",
         "name": "Familiar Focus",
+        "name_zh": "魔宠专攻",
         "source": ["Animal Archive pg. 18"]
     },
     "familiar link":     {
         "key": "familiar link",
         "name": "Familiar Link",
+        "name_zh": "魔宠连接",
         "descriptors":         [
             "Coven",
             "Teamwork"
@@ -8742,12 +8938,14 @@ var featDict = {
     "familiar spell":     {
         "key": "familiar spell",
         "name": "Familiar Spell",
+        "name_zh": "魔宠法术",
         "descriptors": ["Metamagic"],
         "source": ["Animal Archive pg. 18"]
     },
     "famine tolerance":     {
         "key": "famine tolerance",
         "name": "Famine Tolerance",
+        "name_zh": "饥饿耐性",
         "source": ["Blood of the Night pg. 28"]
     },
     "fan-bearer at the king's right hand":     {
@@ -8777,11 +8975,13 @@ var featDict = {
     "far-roaming familiar":     {
         "key": "far-roaming familiar",
         "name": "Far-Roaming Familiar",
+        "name_zh": "远行魔宠",
         "source": ["Familiar Folio pg. 18"]
     },
     "fascinated by the mundane":     {
         "key": "fascinated by the mundane",
         "name": "Fascinated by the Mundane",
+        "name_zh": "沉迷凡世",
         "descriptors": ["Story"],
         "source": ["Legacy of the First World pg. 5"]
     },
@@ -8793,6 +8993,7 @@ var featDict = {
     "fast change":     {
         "key": "fast change",
         "name": "Fast Change",
+        "name_zh": "快速变身",
         "source": ["Blood of the Moon pg. 7"]
     },
     "fast crawl":     {
@@ -8847,11 +9048,13 @@ var featDict = {
     "favor of the empress of torrents":     {
         "key": "favor of the empress of torrents",
         "name": "Favor of the Empress of Torrents",
+        "name_zh": "漩涡女帝的恩惠",
         "source": ["Aquatic Adventures pg. 58"]
     },
     "favored animal focus":     {
         "key": "favored animal focus",
         "name": "Favored Animal Focus",
+        "name_zh": "偏好动物之力",
         "source": ["Wilderness Origins pg. 22"]
     },
     "favored community":     {
@@ -9074,6 +9277,7 @@ var featDict = {
     "ferocious loyalty":     {
         "key": "ferocious loyalty",
         "name": "Ferocious Loyalty",
+        "name_zh": "凶猛忠诚",
         "descriptors": ["Teamwork"],
         "source": ["Blood of the Moon pg. 11"]
     },
@@ -9133,6 +9337,7 @@ var featDict = {
     "fey obedience":     {
         "key": "fey obedience",
         "name": "Fey Obedience",
+        "name_zh": "妖精仪典",
         "source": ["The First World, Realm of the Fey pg. 17"]
     },
     "fey performance":     {
@@ -9176,11 +9381,13 @@ var featDict = {
     "fiendish darkness":     {
         "key": "fiendish darkness",
         "name": "Fiendish Darkness",
+        "name_zh": "炼狱黑暗",
         "source": ["Blood of Fiends pg. 24"]
     },
     "fiendish facade":     {
         "key": "fiendish facade",
         "name": "Fiendish Facade",
+        "name_zh": "炼狱假象",
         "source":         [
             "Blood of Fiends pg. 25",
             "Pathfinder #25: The Bastards of Erebus pg. 66"
@@ -9200,6 +9407,7 @@ var featDict = {
     "fiendish resilience":     {
         "key": "fiendish resilience",
         "name": "Fiendish Resilience",
+        "name_zh": "炼狱抗性",
         "source": ["Blood of Fiends pg. 25"]
     },
     "fiendish serpent":     {
@@ -9217,6 +9425,7 @@ var featDict = {
     "fiendskin":     {
         "key": "fiendskin",
         "name": "Fiendskin",
+        "name_zh": "魔化之肤",
         "descriptors": ["Damnation"],
         "source": ["Champions of Corruption pg. 16"]
     },
@@ -9239,6 +9448,7 @@ var featDict = {
     "figment's fluidity":     {
         "key": "figment's fluidity",
         "name": "Figment's Fluidity",
+        "name_zh": "幻梦易形",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -9298,6 +9508,7 @@ var featDict = {
     "finishing cascade":     {
         "key": "finishing cascade",
         "name": "Finishing Cascade",
+        "name_zh": "终结喷流",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -9406,6 +9617,7 @@ var featDict = {
     "flaying critical":     {
         "key": "flaying critical",
         "name": "Flaying Critical",
+        "name_zh": "剥皮重击",
         "descriptors":         [
             "Combat",
             "Critical"
@@ -9504,6 +9716,7 @@ var featDict = {
     "flumefire rage":     {
         "key": "flumefire rage",
         "name": "Flumefire Rage",
+        "name_zh": "熔火狂暴",
         "source": ["Elemental Master's Handbook pg. 7"]
     },
     "flyby attack":     {
@@ -9523,18 +9736,21 @@ var featDict = {
     "focused aberration expertise":     {
         "key": "focused aberration expertise",
         "name": "Focused Aberration Expertise",
+        "name_zh": "异怪专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 22"]
     },
     "focused animal expertise":     {
         "key": "focused animal expertise",
         "name": "Focused Animal Expertise",
+        "name_zh": "动物专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
     "focused construct expertise":     {
         "key": "focused construct expertise",
         "name": "Focused Construct Expertise",
+        "name_zh": "构装体专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
@@ -9566,6 +9782,7 @@ var featDict = {
     "focused fey expertise":     {
         "key": "focused fey expertise",
         "name": "Focused Fey Expertise",
+        "name_zh": "精类专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
@@ -9578,18 +9795,21 @@ var featDict = {
     "focused magical beast expertise":     {
         "key": "focused magical beast expertise",
         "name": "Focused Magical Beast Expertise",
+        "name_zh": "魔法兽专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
     "focused ooze expertise":     {
         "key": "focused ooze expertise",
         "name": "Focused Ooze Expertise",
+        "name_zh": "泥怪专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
     "focused outsider expertise":     {
         "key": "focused outsider expertise",
         "name": "Focused Outsider Expertise",
+        "name_zh": "异界生物专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
@@ -9608,6 +9828,7 @@ var featDict = {
     "focused plant expertise":     {
         "key": "focused plant expertise",
         "name": "Focused Plant Expertise",
+        "name_zh": "植物专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
@@ -9635,18 +9856,21 @@ var featDict = {
     "focused target":     {
         "key": "focused target",
         "name": "Focused Target",
+        "name_zh": "专注目标",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 5"]
     },
     "focused undead expertise":     {
         "key": "focused undead expertise",
         "name": "Focused Undead Expertise",
+        "name_zh": "不死生物专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
     "focused vermin expertise":     {
         "key": "focused vermin expertise",
         "name": "Focused Vermin Expertise",
+        "name_zh": "虫类专精",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 23"]
     },
@@ -9685,6 +9909,7 @@ var featDict = {
     "follow-up strike":     {
         "key": "follow-up strike",
         "name": "Follow-Up Strike",
+        "name_zh": "跟进追击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -9795,6 +10020,7 @@ var featDict = {
     "fortuitous vigor":     {
         "key": "fortuitous vigor",
         "name": "Fortuitous Vigor",
+        "name_zh": "强韧活力",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 14"],
         "prerequisiteKeys": ["combat vigor"]
@@ -9879,6 +10105,7 @@ var featDict = {
     "freeze in place":     {
         "key": "freeze in place",
         "name": "Freeze in Place",
+        "name_zh": "就地静止",
         "descriptors": ["Combat"],
         "source": ["Heroes of Golarion pg. 6"]
     },
@@ -9937,6 +10164,7 @@ var featDict = {
     "friendly switch":     {
         "key": "friendly switch",
         "name": "Friendly Switch",
+        "name_zh": "友军换位",
         "source": ["Seekers of Secrets pg. 17"]
     },
     "frightening ambush":     {
@@ -9992,6 +10220,7 @@ var featDict = {
     "fury of the tainted":     {
         "key": "fury of the tainted",
         "name": "Fury of the Tainted",
+        "name_zh": "污秽之怒",
         "descriptors": ["Combat"],
         "source": ["Blood of Fiends pg. 25"]
     },
@@ -10014,6 +10243,7 @@ var featDict = {
     "galley slave":     {
         "key": "galley slave",
         "name": "Galley Slave",
+        "name_zh": "战船奴隶",
         "source": ["Taldor, Echoes of Glory pg. 28"]
     },
     "gang up":     {
@@ -10039,6 +10269,7 @@ var featDict = {
     "gate breaker":     {
         "key": "gate breaker",
         "name": "Gate Breaker",
+        "name_zh": "门扉破坏者",
         "descriptors": ["Combat"],
         "source": ["Path of the Hellknight pg. 38"],
         "prerequisiteKeys":         [
@@ -10049,6 +10280,7 @@ var featDict = {
     "gather might":     {
         "key": "gather might",
         "name": "Gather Might",
+        "name_zh": "凝聚力量",
         "source": ["Martial Arts Handbook pg. 29"]
     },
     "gaze reflection":     {
@@ -10060,6 +10292,7 @@ var featDict = {
     "genie-touched companion":     {
         "key": "genie-touched companion",
         "name": "Genie-Touched Companion",
+        "name_zh": "灵触伙伴",
         "source": ["Qadira, Jewel of the East pg. 61"]
     },
     "ghost guide":     {
@@ -10081,11 +10314,13 @@ var featDict = {
     "ghostbane ichor":     {
         "key": "ghostbane ichor",
         "name": "Ghostbane Ichor",
+        "name_zh": "鬼咒脓液",
         "source": ["Potions and Poisons pg. 6"]
     },
     "ghostslayer":     {
         "key": "ghostslayer",
         "name": "Ghostslayer",
+        "name_zh": "虚幻杀手",
         "descriptors": ["Combat"],
         "source": ["Haunted Heroes Handbook pg. 5"]
     },
@@ -10181,6 +10416,7 @@ var featDict = {
     "gifts from the sea":     {
         "key": "gifts from the sea",
         "name": "Gifts from the Sea",
+        "name_zh": "海之赠礼",
         "source": ["Heroes from the Fringe pg. 20"]
     },
     "gilded weapons":     {
@@ -10233,6 +10469,7 @@ var featDict = {
     "glorious blaze":     {
         "key": "glorious blaze",
         "name": "Glorious Blaze",
+        "name_zh": "辉煌烈焰",
         "source": ["Heroes of Golarion pg. 9"]
     },
     "glorious heat":     {
@@ -10311,6 +10548,7 @@ var featDict = {
     "golden legion's stayed blade":     {
         "key": "golden legion's stayed blade",
         "name": "Golden Legion's Stayed Blade",
+        "name_zh": "黄金军团的不杀之刃",
         "source": ["Champions of Purity pg. 23"]
     },
     "golem's conviction":     {
@@ -10367,6 +10605,7 @@ var featDict = {
     "grab and go":     {
         "key": "grab and go",
         "name": "Grab and Go",
+        "name_zh": "随心武器",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 8"],
         "prerequisiteKeys":         [
@@ -10411,6 +10650,7 @@ var featDict = {
     "graceful athlete":     {
         "key": "graceful athlete",
         "name": "Graceful Athlete",
+        "name_zh": "优雅健将",
         "source": ["Blood of the Beast pg. 6"]
     },
     "graceful flier":     {
@@ -10779,6 +11019,7 @@ var featDict = {
     "greater meditation master":     {
         "key": "greater meditation master",
         "name": "Greater Meditation Master",
+        "name_zh": "高阶冥想大师",
         "descriptors": ["Meditation"],
         "source": ["Blood of the Beast pg. 28"],
         "prerequisiteKeys":         [
@@ -10836,6 +11077,7 @@ var featDict = {
     "greater planar mentor":     {
         "key": "greater planar mentor",
         "name": "Greater Planar Mentor",
+        "name_zh": "高等位面训导",
         "source": ["Plane-Hopper's Handbook pg. 26"],
         "prerequisiteKeys":         [
             "improved planar mentor",
@@ -11092,6 +11334,7 @@ var featDict = {
     "greater weapon shift":     {
         "key": "greater weapon shift",
         "name": "Greater Weapon Shift",
+        "name_zh": "高等武器变形",
         "source": ["Wilderness Origins pg. 9"],
         "prerequisiteKeys":         [
             "improved weapon shift",
@@ -11164,6 +11407,7 @@ var featDict = {
     "grisly ornament":     {
         "key": "grisly ornament",
         "name": "Grisly Ornament",
+        "name_zh": "骇人饰物",
         "descriptors": ["Item Creation"],
         "source": ["Monster Hunter's Handbook pg. 24"],
         "prerequisiteKeys": ["harvest parts"]
@@ -11188,6 +11432,7 @@ var featDict = {
     "group deliver touch spells":     {
         "key": "group deliver touch spells",
         "name": "Group Deliver Touch Spells",
+        "name_zh": "团队传递接触法术",
         "descriptors": ["Teamwork"],
         "source": ["Familiar Folio pg. 18"],
         "prerequisiteKeys": ["group shared spells"]
@@ -11195,6 +11440,7 @@ var featDict = {
     "group shared spells":     {
         "key": "group shared spells",
         "name": "Group Shared Spells",
+        "name_zh": "团队法术共享",
         "descriptors": ["Teamwork"],
         "source":         [
             "Ultimate Wilderness pg. 113",
@@ -11211,6 +11457,7 @@ var featDict = {
     "growth in ash":     {
         "key": "growth in ash",
         "name": "Growth in Ash",
+        "name_zh": "重生于烬",
         "source": ["Elemental Master's Handbook pg. 6"]
     },
     "grudge fighter":     {
@@ -11223,6 +11470,7 @@ var featDict = {
     "gruesome butcher":     {
         "key": "gruesome butcher",
         "name": "Gruesome Butcher",
+        "name_zh": "恐怖屠夫",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 9"]
     },
@@ -11269,6 +11517,7 @@ var featDict = {
     "guardian's return":     {
         "key": "guardian's return",
         "name": "Guardian's Return",
+        "name_zh": "戍卫归还",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -11298,6 +11547,7 @@ var featDict = {
     "gun twirling":     {
         "key": "gun twirling",
         "name": "Gun Twirling",
+        "name_zh": "转枪",
         "descriptors": ["Grit"],
         "source": ["Champions of Balance pg. 19"],
         "prerequisiteKeys":         [
@@ -11366,6 +11616,7 @@ var featDict = {
     "hammer guards the anvil":     {
         "key": "hammer guards the anvil",
         "name": "Hammer Guards the Anvil",
+        "name_zh": "护砧之锤",
         "descriptors": ["Teamwork"],
         "source": ["Elemental Master's Handbook pg. 7"]
     },
@@ -11391,24 +11642,28 @@ var featDict = {
     "hand's autonomy":     {
         "key": "hand's autonomy",
         "name": "Hand's Autonomy",
+        "name_zh": "自动手",
         "source": ["Haunted Heroes Handbook pg. 24"],
         "prerequisiteKeys": ["possessed hand"]
     },
     "hand's detachment":     {
         "key": "hand's detachment",
         "name": "Hand's Detachment",
+        "name_zh": "人手分离",
         "source": ["Haunted Heroes Handbook pg. 24"],
         "prerequisiteKeys": ["possessed hand"]
     },
     "hand's knowledge":     {
         "key": "hand's knowledge",
         "name": "Hand's Knowledge",
+        "name_zh": "手不释卷",
         "source": ["Haunted Heroes Handbook pg. 24"],
         "prerequisiteKeys": ["possessed hand"]
     },
     "hand's sight":     {
         "key": "hand's sight",
         "name": "Hand's Sight",
+        "name_zh": "手心长眼",
         "source": ["Haunted Heroes Handbook pg. 25"],
         "prerequisiteKeys": ["possessed hand"]
     },
@@ -11444,6 +11699,7 @@ var featDict = {
     "hardy liver":     {
         "key": "hardy liver",
         "name": "Hardy Liver",
+        "name_zh": "一副好肝",
         "source": ["Inner Sea Taverns pg. 59"],
         "prerequisiteKeys": ["great fortitude"]
     },
@@ -11466,6 +11722,7 @@ var featDict = {
     "harrowed summoning":     {
         "key": "harrowed summoning",
         "name": "Harrowed Summoning",
+        "name_zh": "哈罗召唤术",
         "source": ["The Harrow Handbook pg. 14"],
         "prerequisiteKeys": ["harrowed"]
     },
@@ -11497,12 +11754,14 @@ var featDict = {
     "harvest parts":     {
         "key": "harvest parts",
         "name": "Harvest Parts",
+        "name_zh": "采集残骸",
         "descriptors": ["Item Creation"],
         "source": ["Monster Hunter's Handbook pg. 24"]
     },
     "haunt scavenger":     {
         "key": "haunt scavenger",
         "name": "Haunt Scavenger",
+        "name_zh": "作祟拾荒者",
         "descriptors": ["Item Creation"],
         "source": ["Haunted Heroes Handbook pg. 30"]
     },
@@ -11548,6 +11807,7 @@ var featDict = {
     "healing potion":     {
         "key": "healing potion",
         "name": "Healing Potion",
+        "name_zh": "治疗药水",
         "source": ["Potions and Poisons pg. 16"],
         "prerequisiteKeys": ["brew potion"]
     },
@@ -11573,6 +11833,7 @@ var featDict = {
     "heavenly bane":     {
         "key": "heavenly bane",
         "name": "Heavenly Bane",
+        "name_zh": "天界破敌",
         "source": ["Distant Realms pg. 32"]
     },
     "heavenly radiance":     {
@@ -11590,6 +11851,7 @@ var featDict = {
     "hefty brute":     {
         "key": "hefty brute",
         "name": "Hefty Brute",
+        "name_zh": "健壮猛兽",
         "source": ["Wilderness Origins pg. 22"]
     },
     "heighten spell":     {
@@ -11654,6 +11916,7 @@ var featDict = {
     "hemorhaging venom":     {
         "key": "hemorhaging venom",
         "name": "Hemorhaging Venom",
+        "name_zh": "溢血之毒",
         "descriptors": ["Combat"],
         "source": ["Potions and Poisons pg. 5"],
         "prerequisiteKeys":         [
@@ -11771,6 +12034,7 @@ var featDict = {
     "hinder":     {
         "key": "hinder",
         "name": "Hinder",
+        "name_zh": "阻碍",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
@@ -11830,6 +12094,7 @@ var featDict = {
     "horn of the criosphinx":     {
         "key": "horn of the criosphinx",
         "name": "Horn of the Criosphinx",
+        "name_zh": "羊首狮身之角",
         "descriptors": ["Combat"],
         "source": ["People of the Sands pg. 13"]
     },
@@ -11882,6 +12147,7 @@ var featDict = {
     "human guise":     {
         "key": "human guise",
         "name": "Human Guise",
+        "name_zh": "人类伪装",
         "source": ["Blood of the Beast pg. 13"]
     },
     "human spirit":     {
@@ -11905,6 +12171,7 @@ var featDict = {
     "hurricane punch":     {
         "key": "hurricane punch",
         "name": "Hurricane Punch",
+        "name_zh": "暴风拳",
         "descriptors": ["Combat"],
         "source": ["Elemental Master's Handbook pg. 19"],
         "prerequisiteKeys":         [
@@ -11930,11 +12197,13 @@ var featDict = {
     "hydroponic adaptation":     {
         "key": "hydroponic adaptation",
         "name": "Hydroponic Adaptation",
+        "name_zh": "水栖适应",
         "source": ["Legacy of the First World pg. 8"]
     },
     "hymn singer":     {
         "key": "hymn singer",
         "name": "Hymn Singer",
+        "name_zh": "圣歌者",
         "source": ["Blood of the Night pg. 28"]
     },
     "ice climber":     {
@@ -12051,6 +12320,7 @@ var featDict = {
     "implacable":     {
         "key": "implacable",
         "name": "Implacable",
+        "name_zh": "死倔",
         "descriptors": ["Combat"],
         "source": ["Inner Sea Taverns pg. 59"]
     },
@@ -12148,6 +12418,7 @@ var featDict = {
     "improved bestial transformation":     {
         "key": "improved bestial transformation",
         "name": "Improved Bestial Transformation",
+        "name_zh": "进阶兽化变身",
         "source": ["Blood of the Night pg. 16"]
     },
     "improved bless equipment":     {
@@ -12267,6 +12538,7 @@ var featDict = {
     "improved day job":     {
         "key": "improved day job",
         "name": "Improved Day Job",
+        "name_zh": "改善日常工作",
         "source": ["Pathfinder Society Primer pg. 8"]
     },
     "improved death-stealing":     {
@@ -12351,11 +12623,13 @@ var featDict = {
     "improved elemental counterspell":     {
         "key": "improved elemental counterspell",
         "name": "Improved Elemental Counterspell",
+        "name_zh": "精通元素法术反制",
         "source": ["Elemental Master's Handbook pg. 23"]
     },
     "improved familiar bond":     {
         "key": "improved familiar bond",
         "name": "Improved Familiar Bond",
+        "name_zh": "高等魔宠契约",
         "source": ["Familiar Folio pg. 18"],
         "prerequisiteKeys":         [
             "familiar bond",
@@ -12404,12 +12678,14 @@ var featDict = {
     "improved fiendish darkness":     {
         "key": "improved fiendish darkness",
         "name": "Improved Fiendish Darkness",
+        "name_zh": "精通炼狱黑暗",
         "source": ["Blood of Fiends pg. 25"],
         "prerequisiteKeys": ["fiendish darkness"]
     },
     "improved fiendish sorcery":     {
         "key": "improved fiendish sorcery",
         "name": "Improved Fiendish Sorcery",
+        "name_zh": "精通炼狱魔力",
         "source": ["Blood of Fiends pg. 25"]
     },
     "improved flexible wizardry":     {
@@ -12435,6 +12711,7 @@ var featDict = {
     "improved fury of the tainted":     {
         "key": "improved fury of the tainted",
         "name": "Improved Fury of the Tainted",
+        "name_zh": "精通污秽之怒",
         "descriptors": ["Combat"],
         "source": ["Blood of Fiends pg. 25"],
         "prerequisiteKeys": ["fury of the tainted"]
@@ -12442,6 +12719,7 @@ var featDict = {
     "improved gaseous form":     {
         "key": "improved gaseous form",
         "name": "Improved Gaseous Form",
+        "name_zh": "进阶气体形态",
         "source": ["Blood of the Night pg. 17"]
     },
     "improved grapple":     {
@@ -12616,6 +12894,7 @@ var featDict = {
     "improved outflank":     {
         "key": "improved outflank",
         "name": "Improved Outflank",
+        "name_zh": "精通包抄",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -12634,6 +12913,7 @@ var featDict = {
     "improved parry":     {
         "key": "improved parry",
         "name": "Improved Parry",
+        "name_zh": "精通格挡",
         "descriptors": ["Combat"],
         "source": ["People of the River pg. 12"],
         "prerequisiteKeys": ["combat expertise"]
@@ -12649,6 +12929,7 @@ var featDict = {
     "improved planar mentor":     {
         "key": "improved planar mentor",
         "name": "Improved Planar Mentor",
+        "name_zh": "进阶位面训导",
         "source": ["Plane-Hopper's Handbook pg. 26"],
         "prerequisiteKeys": ["planar mentor"]
     },
@@ -12689,6 +12970,7 @@ var featDict = {
     "improved precise strike":     {
         "key": "improved precise strike",
         "name": "Improved Precise Strike",
+        "name_zh": "精通精淮打击",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -12699,6 +12981,7 @@ var featDict = {
     "improved punishing step":     {
         "key": "improved punishing step",
         "name": "Improved Punishing Step",
+        "name_zh": "精通梅花步",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 14"],
         "prerequisiteKeys":         [
@@ -12753,6 +13036,7 @@ var featDict = {
     "improved shadowy resistance":     {
         "key": "improved shadowy resistance",
         "name": "Improved Shadowy Resistance",
+        "name_zh": "强化暗影抗力",
         "source": ["Blood of Shadows pg. 7"]
     },
     "improved share spells":     {
@@ -12901,11 +13185,13 @@ var featDict = {
     "improved swarm form":     {
         "key": "improved swarm form",
         "name": "Improved Swarm Form",
+        "name_zh": "进阶集群形态",
         "source": ["Blood of the Night pg. 17"]
     },
     "improved toxicological timing":     {
         "key": "improved toxicological timing",
         "name": "Improved Toxicological Timing",
+        "name_zh": "精通毒性时间",
         "source": ["Alchemy Manual pg. 8"],
         "prerequisiteKeys": ["toxicological timing"]
     },
@@ -12970,6 +13256,7 @@ var featDict = {
     "improved underhanded teamwork":     {
         "key": "improved underhanded teamwork",
         "name": "Improved Underhanded Teamwork",
+        "name_zh": "特卑鄙协作",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -13003,6 +13290,7 @@ var featDict = {
     "improved weapon shift":     {
         "key": "improved weapon shift",
         "name": "Improved Weapon Shift",
+        "name_zh": "精通武器变形",
         "source": ["Wilderness Origins pg. 9"],
         "prerequisiteKeys": ["weapon shift"]
     },
@@ -13038,6 +13326,7 @@ var featDict = {
     "improvisational focus":     {
         "key": "improvisational focus",
         "name": "Improvisational Focus",
+        "name_zh": "临时专攻",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 8"],
         "prerequisiteKeys":         [
@@ -13048,11 +13337,13 @@ var featDict = {
     "improvisational healer":     {
         "key": "improvisational healer",
         "name": "Improvisational Healer",
+        "name_zh": "即兴治疗者",
         "source": ["Adventurer's Armory 2 pg. 22"]
     },
     "improvised defenses":     {
         "key": "improvised defenses",
         "name": "Improvised Defenses",
+        "name_zh": "临时防御",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -13102,6 +13393,7 @@ var featDict = {
     "incredible healer":     {
         "key": "incredible healer",
         "name": "Incredible Healer",
+        "name_zh": "惊异治疗者",
         "source": ["Blood of the Ancients pg. 20"]
     },
     "incremental elemental assault":     {
@@ -13118,6 +13410,7 @@ var featDict = {
     "indomitable mount":     {
         "key": "indomitable mount",
         "name": "Indomitable Mount",
+        "name_zh": "不屈坐骑",
         "descriptors": ["Combat"],
         "source": ["Cities of Golarion pg. 50"],
         "prerequisiteKeys": ["mounted combat"]
@@ -13164,6 +13457,7 @@ var featDict = {
     "ineffable count of the clock":     {
         "key": "ineffable count of the clock",
         "name": "Ineffable Count of the Clock",
+        "name_zh": "无以时计伯爵",
         "descriptors": ["Gathlain Court Title"],
         "source": ["Plane-Hopper's Handbook pg. 22"],
         "prerequisiteKeys": ["fey obedience"]
@@ -13200,6 +13494,7 @@ var featDict = {
     "infuse poison":     {
         "key": "infuse poison",
         "name": "Infuse Poison",
+        "name_zh": "灌法毒药",
         "descriptors": ["Item Creation"],
         "source": ["Black Markets pg. 12"],
         "prerequisiteKeys": ["brew potion"]
@@ -13207,6 +13502,7 @@ var featDict = {
     "infused spell cartridges":     {
         "key": "infused spell cartridges",
         "name": "Infused Spell Cartridges",
+        "name_zh": "注法弹",
         "descriptors": ["Combat"],
         "source": ["Heroes of Golarion pg. 4"],
         "prerequisiteKeys":         [
@@ -13243,6 +13539,7 @@ var featDict = {
     "inner light (boa)":     {
         "key": "inner light (boa)",
         "name": "Inner Light (BoA)",
+        "name_zh": "内在之光",
         "source": ["Blood of Angels pg. 25"]
     },
     "inner light (uw)":     {
@@ -13273,6 +13570,7 @@ var featDict = {
     "insidious healing":     {
         "key": "insidious healing",
         "name": "Insidious Healing",
+        "name_zh": "阴险治疗",
         "source": ["Healer's Handbook pg. 8"]
     },
     "insightful advice":     {
@@ -13296,6 +13594,7 @@ var featDict = {
     "inspirational commander":     {
         "key": "inspirational commander",
         "name": "Inspirational Commander",
+        "name_zh": "激励指挥官",
         "source": ["Quests and Campaigns pg. 27"]
     },
     "inspired alchemy":     {
@@ -13487,6 +13786,7 @@ var featDict = {
     "introspective performance":     {
         "key": "introspective performance",
         "name": "Introspective Performance",
+        "name_zh": "自省演出",
         "source": ["Legacy of the First World pg. 23"]
     },
     "intrusive presence":     {
@@ -13531,6 +13831,7 @@ var featDict = {
     "ioun resonance":     {
         "key": "ioun resonance",
         "name": "Ioun Resonance",
+        "name_zh": "艾恩谐振",
         "source": ["Heroes of Golarion pg. 7"]
     },
     "iron will":     {
@@ -13696,12 +13997,14 @@ var featDict = {
     "joined wings":     {
         "key": "joined wings",
         "name": "Joined Wings",
+        "name_zh": "融身入翼",
         "descriptors": ["Teamwork"],
         "source": ["Distant Realms pg. 33"]
     },
     "joyless toil":     {
         "key": "joyless toil",
         "name": "Joyless Toil",
+        "name_zh": "无趣劳作",
         "descriptors": ["Combat"],
         "source": ["Elemental Master's Handbook pg. 11"],
         "prerequisiteKeys": ["improved unarmed strike"]
@@ -13741,6 +14044,7 @@ var featDict = {
     "jumper":     {
         "key": "jumper",
         "name": "Jumper",
+        "name_zh": "跳跃者",
         "source": ["Animal Archive pg. 18"]
     },
     "jungle survivalist":     {
@@ -13779,6 +14083,7 @@ var featDict = {
     "ki diversity":     {
         "key": "ki diversity",
         "name": "Ki Diversity",
+        "name_zh": "万象真气",
         "descriptors":         [
             "Combat",
             "Faction"
@@ -13827,11 +14132,13 @@ var featDict = {
     "kinetic crafting":     {
         "key": "kinetic crafting",
         "name": "Kinetic Crafting",
+        "name_zh": "原力造物",
         "source": ["Psychic Anthology pg. 24"]
     },
     "kinetic invocation":     {
         "key": "kinetic invocation",
         "name": "Kinetic Invocation",
+        "name_zh": "原力调用",
         "source": ["Psychic Anthology pg. 24"]
     },
     "kinetic leap":     {
@@ -13921,6 +14228,7 @@ var featDict = {
     "knight of the twisted word":     {
         "key": "knight of the twisted word",
         "name": "Knight of the Twisted Word",
+        "name_zh": "曲言骑士",
         "descriptors": ["Gathlain Court Title"],
         "source": ["Plane-Hopper's Handbook pg. 22"],
         "prerequisiteKeys": ["fey obedience"]
@@ -13949,6 +14257,7 @@ var featDict = {
     "knotted nets":     {
         "key": "knotted nets",
         "name": "Knotted Nets",
+        "name_zh": "牢固捕网",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -13966,6 +14275,7 @@ var featDict = {
     "knowledgeable spellcaster":     {
         "key": "knowledgeable spellcaster",
         "name": "Knowledgeable Spellcaster",
+        "name_zh": "博学施法者",
         "source": ["Monster Hunter's Handbook pg. 19"]
     },
     "kobold ambusher":     {
@@ -13983,6 +14293,7 @@ var featDict = {
     "kobold flood":     {
         "key": "kobold flood",
         "name": "Kobold Flood",
+        "name_zh": "狗头人洪流",
         "descriptors": ["Combat"],
         "source": ["Kobolds of Golarion pg. 25"],
         "prerequisiteKeys":         [
@@ -13994,6 +14305,7 @@ var featDict = {
     "kobold groundling":     {
         "key": "kobold groundling",
         "name": "Kobold Groundling",
+        "name_zh": "狗头人地击",
         "descriptors": ["Combat"],
         "source": ["Kobolds of Golarion pg. 25"],
         "prerequisiteKeys":         [
@@ -14011,6 +14323,7 @@ var featDict = {
     "kobold style":     {
         "key": "kobold style",
         "name": "Kobold Style",
+        "name_zh": "狗头人流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -14021,6 +14334,7 @@ var featDict = {
     "kraggodan's stance":     {
         "key": "kraggodan's stance",
         "name": "Kraggodan's Stance",
+        "name_zh": "库拉贡敦姿态",
         "descriptors": ["Combat"],
         "source": ["Elemental Master's Handbook pg. 11"]
     },
@@ -14158,6 +14472,7 @@ var featDict = {
     "lantern glare":     {
         "key": "lantern glare",
         "name": "Lantern Glare",
+        "name_zh": "流光耀",
         "descriptors": ["Combat"],
         "source": ["Distant Realms pg. 33"],
         "prerequisiteKeys":         [
@@ -14170,6 +14485,7 @@ var featDict = {
     "lantern light":     {
         "key": "lantern light",
         "name": "Lantern Light",
+        "name_zh": "流光闪",
         "descriptors": ["Combat"],
         "source": ["Distant Realms pg. 33"],
         "prerequisiteKeys":         [
@@ -14181,6 +14497,7 @@ var featDict = {
     "lantern style":     {
         "key": "lantern style",
         "name": "Lantern Style",
+        "name_zh": "流光式",
         "descriptors":         [
             "Combat",
             "Style"
@@ -14213,6 +14530,7 @@ var featDict = {
     "lastwall phalanx":     {
         "key": "lastwall phalanx",
         "name": "Lastwall Phalanx",
+        "name_zh": "终焉之墙方阵",
         "descriptors": ["Teamwork"],
         "source": ["Champions of Purity pg. 23"]
     },
@@ -14261,6 +14579,7 @@ var featDict = {
     "leapfrog":     {
         "key": "leapfrog",
         "name": "Leapfrog",
+        "name_zh": "蛙跳",
         "descriptors":         [
             "Combat",
             "Performance"
@@ -14311,6 +14630,7 @@ var featDict = {
     "legacy of ozem":     {
         "key": "legacy of ozem",
         "name": "Legacy of Ozem",
+        "name_zh": "奥泽姆骑士团的遗产",
         "source": ["Champions of Purity pg. 23"]
     },
     "legalistic reading":     {
@@ -14344,6 +14664,7 @@ var featDict = {
     "lesser spell synthesis":     {
         "key": "lesser spell synthesis",
         "name": "Lesser Spell Synthesis",
+        "name_zh": "次级法术融合",
         "source": ["Chronicle of Legends pg. 9"]
     },
     "let them come":     {
@@ -14405,16 +14726,19 @@ var featDict = {
     "life-dominant soul":     {
         "key": "life-dominant soul",
         "name": "Life-Dominant Soul",
+        "name_zh": "主宰生命之魂",
         "source": ["Blood of the Night pg. 28"]
     },
     "lifebound":     {
         "key": "lifebound",
         "name": "Lifebound",
+        "name_zh": "生命界限",
         "source": ["Healer's Handbook pg. 15"]
     },
     "lifecrafting":     {
         "key": "lifecrafting",
         "name": "Lifecrafting",
+        "name_zh": "创生工艺",
         "descriptors": ["Item Creation"],
         "source": ["Heroes of Golarion pg. 7"],
         "prerequisiteKeys":         [
@@ -14491,6 +14815,7 @@ var featDict = {
     "lingering breath":     {
         "key": "lingering breath",
         "name": "Lingering Breath",
+        "name_zh": "龙息延续",
         "source": ["Chronicle of Legends pg. 9"]
     },
     "lingering invisibility":     {
@@ -14528,6 +14853,7 @@ var featDict = {
     "linnorm hunter coordination":     {
         "key": "linnorm hunter coordination",
         "name": "Linnorm Hunter Coordination",
+        "name_zh": "蛇龙猎人协作",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -14542,6 +14868,7 @@ var featDict = {
     "linnorm hunter retreat":     {
         "key": "linnorm hunter retreat",
         "name": "Linnorm Hunter Retreat",
+        "name_zh": "蛇龙猎人撤退",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -14555,6 +14882,7 @@ var featDict = {
     "linnorm hunter style":     {
         "key": "linnorm hunter style",
         "name": "Linnorm Hunter Style",
+        "name_zh": "蛇龙猎人流",
         "descriptors":         [
             "Combat",
             "Style",
@@ -14565,6 +14893,7 @@ var featDict = {
     "linnorm style":     {
         "key": "linnorm style",
         "name": "Linnorm Style",
+        "name_zh": "蛇龙流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -14575,6 +14904,7 @@ var featDict = {
     "linnorm vengeance":     {
         "key": "linnorm vengeance",
         "name": "Linnorm Vengeance",
+        "name_zh": "蛇龙复仇",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 20"],
         "prerequisiteKeys":         [
@@ -14585,6 +14915,7 @@ var featDict = {
     "linnorm wrath":     {
         "key": "linnorm wrath",
         "name": "Linnorm Wrath",
+        "name_zh": "蛇龙之怒",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 21"],
         "prerequisiteKeys":         [
@@ -14602,6 +14933,7 @@ var featDict = {
     "lithe attacker":     {
         "key": "lithe attacker",
         "name": "Lithe Attacker",
+        "name_zh": "轻柔攻击者",
         "source": ["Animal Archive pg. 18"],
         "prerequisiteKeys": ["narrow frame"]
     },
@@ -14681,6 +15013,7 @@ var featDict = {
     "lovable scoundrel":     {
         "key": "lovable scoundrel",
         "name": "Lovable Scoundrel",
+        "name_zh": "迷人恶棍",
         "source": ["Blood of the Beast pg. 27"]
     },
     "low profile":     {
@@ -14735,6 +15068,7 @@ var featDict = {
     "lucky":     {
         "key": "lucky",
         "name": "Lucky",
+        "name_zh": "幸运",
         "source": ["Blood of the Beast pg. 6"]
     },
     "lunge":     {
@@ -14760,6 +15094,7 @@ var featDict = {
     "maddening obliteration":     {
         "key": "maddening obliteration",
         "name": "Maddening Obliteration",
+        "name_zh": "绝望湮灭",
         "descriptors": ["Combat"],
         "source": ["Horror Adventures pg. 89"],
         "prerequisiteKeys":         [
@@ -14772,16 +15107,19 @@ var featDict = {
     "maddening strike":     {
         "key": "maddening strike",
         "name": "Maddening Strike",
+        "name_zh": "狂乱打击",
         "descriptors": ["Combat"],
         "source": ["Horror Adventures pg. 90"],
         "prerequisiteKeys":         [
             "improved unarmed strike",
+            "maddening style",
             "stunning fist"
         ]
     },
     "maddening style":     {
         "key": "maddening style",
         "name": "Maddening Style",
+        "name_zh": "噬心流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -14802,6 +15140,7 @@ var featDict = {
     "magic trick":     {
         "key": "magic trick",
         "name": "Magic Trick",
+        "name_zh": "魔法技艺",
         "source":         [
             "Chronicle of Legends pg. 16",
             "Distant Realms pg. 62"
@@ -14828,6 +15167,7 @@ var featDict = {
     "magical heart":     {
         "key": "magical heart",
         "name": "Magical Heart",
+        "name_zh": "魔力心脏",
         "descriptors": ["Combat"],
         "source": ["Heroes of Golarion pg. 7"],
         "prerequisiteKeys":         [
@@ -14863,6 +15203,7 @@ var featDict = {
     "makeshift maneuvers":     {
         "key": "makeshift maneuvers",
         "name": "Makeshift Maneuvers",
+        "name_zh": "临时战技",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -14873,6 +15214,7 @@ var featDict = {
     "maleficium":     {
         "key": "maleficium",
         "name": "Maleficium",
+        "name_zh": "邪术",
         "descriptors": ["Damnation"],
         "source": ["Champions of Corruption pg. 17"]
     },
@@ -14970,6 +15312,7 @@ var featDict = {
     "marcher-lord of the cerulean abyss":     {
         "key": "marcher-lord of the cerulean abyss",
         "name": "Marcher-Lord of the Cerulean Abyss",
+        "name_zh": "蔚蓝深渊的边境领主",
         "descriptors": ["Gathlain Court Title"],
         "source": ["Plane-Hopper's Handbook pg. 22"],
         "prerequisiteKeys": ["fey obedience"]
@@ -15075,6 +15418,7 @@ var featDict = {
     "mascot's affection":     {
         "key": "mascot's affection",
         "name": "Mascot's Affection",
+        "name_zh": "讨喜吉祥物",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -15093,6 +15437,7 @@ var featDict = {
     "mask of virtue":     {
         "key": "mask of virtue",
         "name": "Mask of Virtue",
+        "name_zh": "美德假面",
         "descriptors": ["Damnation"],
         "source": ["Champions of Corruption pg. 17"]
     },
@@ -15185,6 +15530,7 @@ var featDict = {
     "master of the ledger":     {
         "key": "master of the ledger",
         "name": "Master of the Ledger",
+        "name_zh": "账房先生",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "master of wonders":     {
@@ -15196,6 +15542,7 @@ var featDict = {
     "master of your kind":     {
         "key": "master of your kind",
         "name": "Master of Your Kind",
+        "name_zh": "同族之主",
         "source": ["Animal Archive pg. 18"]
     },
     "master performer":     {
@@ -15226,6 +15573,7 @@ var featDict = {
     "master swimmer":     {
         "key": "master swimmer",
         "name": "Master Swimmer",
+        "name_zh": "游泳大师",
         "source": ["Aquatic Adventures pg. 58"],
         "prerequisiteKeys": ["skill focus"]
     },
@@ -15253,6 +15601,7 @@ var featDict = {
     "mauler's endurance":     {
         "key": "mauler's endurance",
         "name": "Mauler's Endurance",
+        "name_zh": "健壮战宠",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -15273,6 +15622,7 @@ var featDict = {
     "maze expert":     {
         "key": "maze expert",
         "name": "Maze Expert",
+        "name_zh": "迷宫专家",
         "source": ["Monster Hunter's Handbook pg. 15"],
         "prerequisiteKeys": ["skill focus"]
     },
@@ -15333,6 +15683,7 @@ var featDict = {
     "mental derail":     {
         "key": "mental derail",
         "name": "Mental Derail",
+        "name_zh": "心智脱轨",
         "source": ["Heroes of Golarion pg. 9"]
     },
     "mental stare":     {
@@ -15363,6 +15714,7 @@ var featDict = {
     "merciless beating":     {
         "key": "merciless beating",
         "name": "Merciless Beating",
+        "name_zh": "残忍击打",
         "descriptors": ["Combat"],
         "source": ["The Harrow Handbook pg. 19"],
         "prerequisiteKeys":         [
@@ -15433,11 +15785,13 @@ var featDict = {
     "metamagic invocation":     {
         "key": "metamagic invocation",
         "name": "Metamagic Invocation",
+        "name_zh": "超魔调用",
         "source": ["Psychic Anthology pg. 24"]
     },
     "metamagical synergy":     {
         "key": "metamagical synergy",
         "name": "Metamagical Synergy",
+        "name_zh": "协同超魔",
         "descriptors":         [
             "Coven",
             "Teamwork"
@@ -15467,12 +15821,14 @@ var featDict = {
     "mind strike":     {
         "key": "mind strike",
         "name": "Mind Strike",
+        "name_zh": "摧残心智",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 9"]
     },
     "mindful meditation":     {
         "key": "mindful meditation",
         "name": "Mindful Meditation",
+        "name_zh": "正念冥想",
         "descriptors": ["Meditation"],
         "source": ["Blood of the Beast pg. 28"],
         "prerequisiteKeys": ["meditation master"]
@@ -15480,6 +15836,7 @@ var featDict = {
     "mindfulness mastery":     {
         "key": "mindfulness mastery",
         "name": "Mindfulness Mastery",
+        "name_zh": "正念掌握",
         "descriptors": ["Meditation"],
         "source": ["Blood of the Beast pg. 29"],
         "prerequisiteKeys":         [
@@ -15490,6 +15847,7 @@ var featDict = {
     "minor miracle":     {
         "key": "minor miracle",
         "name": "Minor Miracle",
+        "name_zh": "小型奇迹",
         "source": ["Divine Anthology pg. 11"]
     },
     "minor spell expertise":     {
@@ -15578,6 +15936,7 @@ var featDict = {
     "mobile acrobat":     {
         "key": "mobile acrobat",
         "name": "Mobile Acrobat",
+        "name_zh": "机动特技",
         "source": ["Blood of the Beast pg. 7"]
     },
     "mobile bulwark style":     {
@@ -15609,6 +15968,7 @@ var featDict = {
     "mobile gathering":     {
         "key": "mobile gathering",
         "name": "Mobile Gathering",
+        "name_zh": "移动凝聚",
         "source": ["Elemental Master's Handbook pg. 23"]
     },
     "mobile stronghold":     {
@@ -15734,6 +16094,7 @@ var featDict = {
     "monster spotter":     {
         "key": "monster spotter",
         "name": "Monster Spotter",
+        "name_zh": "怪物雷达",
         "source": ["Monster Hunter's Handbook pg. 7"],
         "prerequisiteKeys": ["skill focus"]
     },
@@ -15745,6 +16106,7 @@ var featDict = {
     "monstrous crafter":     {
         "key": "monstrous crafter",
         "name": "Monstrous Crafter",
+        "name_zh": "怪物工匠",
         "descriptors": ["Item Creation"],
         "source": ["Monster Hunter's Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -15756,11 +16118,13 @@ var featDict = {
     "monstrous disguise":     {
         "key": "monstrous disguise",
         "name": "Monstrous Disguise",
+        "name_zh": "怪物伪装",
         "source": ["Monster Hunter's Handbook pg. 15"]
     },
     "monstrous mask":     {
         "key": "monstrous mask",
         "name": "Monstrous Mask",
+        "name_zh": "恐怖面容",
         "source":         [
             "Blood of Fiends pg. 25",
             "Pathfinder #25: The Bastards of Erebus pg. 66"
@@ -15769,6 +16133,7 @@ var featDict = {
     "monstrous masquerade":     {
         "key": "monstrous masquerade",
         "name": "Monstrous Masquerade",
+        "name_zh": "怪物假面",
         "source": ["Monster Hunter's Handbook pg. 15"],
         "prerequisiteKeys": ["monstrous disguise"]
     },
@@ -15862,6 +16227,7 @@ var featDict = {
     "motivating display":     {
         "key": "motivating display",
         "name": "Motivating Display",
+        "name_zh": "激励技巧",
         "descriptors": ["Combat"],
         "source": ["Blood of the Moon pg. 23"],
         "prerequisiteKeys":         [
@@ -15872,6 +16238,7 @@ var featDict = {
     "mountain eyes":     {
         "key": "mountain eyes",
         "name": "Mountain Eyes",
+        "name_zh": "群山之眼",
         "source": ["Elemental Master's Handbook pg. 19"],
         "prerequisiteKeys": ["blind-fight"]
     },
@@ -15898,6 +16265,7 @@ var featDict = {
     "mounted blade":     {
         "key": "mounted blade",
         "name": "Mounted Blade",
+        "name_zh": "骑乘砍杀",
         "source":         [
             "Adventurer's Guide pg. 15",
             "Qadira, Gateway to the East pg. 9",
@@ -15959,6 +16327,7 @@ var featDict = {
     "muddled morals":     {
         "key": "muddled morals",
         "name": "Muddled Morals",
+        "name_zh": "酒后乱性",
         "source": ["Inner Sea Taverns pg. 59"]
     },
     "multiattack":     {
@@ -16011,12 +16380,14 @@ var featDict = {
     "murderous sniper":     {
         "key": "murderous sniper",
         "name": "Murderous Sniper",
+        "name_zh": "夺命狙杀",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 9"]
     },
     "murky spell":     {
         "key": "murky spell",
         "name": "Murky Spell",
+        "name_zh": "浑浊法术",
         "descriptors": ["Metamagic"],
         "source": ["Aquatic Adventures pg. 58"]
     },
@@ -16117,6 +16488,7 @@ var featDict = {
     "named bullet":     {
         "key": "named bullet",
         "name": "Named Bullet",
+        "name_zh": "索命弹",
         "descriptors": ["Grit"],
         "source": ["Champions of Balance pg. 19"],
         "prerequisiteKeys": ["gunsmithing"]
@@ -16143,6 +16515,7 @@ var featDict = {
     "narrow frame":     {
         "key": "narrow frame",
         "name": "Narrow Frame",
+        "name_zh": "纤细身躯",
         "source": ["Animal Archive pg. 19"]
     },
     "nation builder":     {
@@ -16249,6 +16622,7 @@ var featDict = {
     "needle in a haystack":     {
         "key": "needle in a haystack",
         "name": "Needle in a Haystack",
+        "name_zh": "大海捞针",
         "source": ["Monster Hunter's Handbook pg. 15"],
         "prerequisiteKeys": ["skill focus"]
     },
@@ -16471,6 +16845,7 @@ var featDict = {
     "noxious bite":     {
         "key": "noxious bite",
         "name": "Noxious Bite",
+        "name_zh": "剧毒咬撃",
         "source": ["Dragons Revisited pg. 9"]
     },
     "noxious touch":     {
@@ -16481,6 +16856,7 @@ var featDict = {
     "numbing blow":     {
         "key": "numbing blow",
         "name": "Numbing Blow",
+        "name_zh": "麻木打击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -16504,6 +16880,7 @@ var featDict = {
     "oblivating stare":     {
         "key": "oblivating stare",
         "name": "Oblivating Stare",
+        "name_zh": "忘注视",
         "descriptors": ["Stare"],
         "source": ["Spymaster's Handbook pg. 21"]
     },
@@ -16516,11 +16893,13 @@ var featDict = {
     "occult conduit":     {
         "key": "occult conduit",
         "name": "Occult Conduit",
+        "name_zh": "神秘导能",
         "source": ["Heroes of Golarion pg. 7"]
     },
     "octopus focus":     {
         "key": "octopus focus",
         "name": "Octopus Focus",
+        "name_zh": "章鱼专注",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 14"],
         "prerequisiteKeys":         [
@@ -16531,6 +16910,7 @@ var featDict = {
     "octopus style":     {
         "key": "octopus style",
         "name": "Octopus Style",
+        "name_zh": "章鱼流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -16544,6 +16924,7 @@ var featDict = {
     "octopus thrash":     {
         "key": "octopus thrash",
         "name": "Octopus Thrash",
+        "name_zh": "章鱼鞭打",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 15"],
         "prerequisiteKeys":         [
@@ -16627,6 +17008,7 @@ var featDict = {
     "one-inch punch":     {
         "key": "one-inch punch",
         "name": "One-Inch Punch",
+        "name_zh": "寸拳",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 7"],
         "prerequisiteKeys": ["improved unarmed strike"]
@@ -16820,6 +17202,7 @@ var featDict = {
     "otherworldly influence":     {
         "key": "otherworldly influence",
         "name": "Otherworldly Influence",
+        "name_zh": "异界要人",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 9"]
     },
@@ -16897,12 +17280,14 @@ var featDict = {
     "overachiever":     {
         "key": "overachiever",
         "name": "Overachiever",
+        "name_zh": "成就大业",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 9"]
     },
     "overhead flip":     {
         "key": "overhead flip",
         "name": "Overhead Flip",
+        "name_zh": "过头摔",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -16968,6 +17353,7 @@ var featDict = {
     "overwhelm":     {
         "key": "overwhelm",
         "name": "Overwhelm",
+        "name_zh": "压制",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -17016,6 +17402,7 @@ var featDict = {
     "pacify animal":     {
         "key": "pacify animal",
         "name": "Pacify Animal",
+        "name_zh": "安抚动物",
         "source": ["Monster Hunter's Handbook pg. 9"]
     },
     "pack attack":     {
@@ -17081,6 +17468,7 @@ var featDict = {
     "painful collision":     {
         "key": "painful collision",
         "name": "Painful Collision",
+        "name_zh": "痛苦撞击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -17091,6 +17479,7 @@ var featDict = {
     "painful cures":     {
         "key": "painful cures",
         "name": "Painful Cures",
+        "name_zh": "痛苦治愈",
         "source": ["Healer's Handbook pg. 8"]
     },
     "paired opportunists":     {
@@ -17203,6 +17592,7 @@ var featDict = {
     "passing grace":     {
         "key": "passing grace",
         "name": "Passing Grace",
+        "name_zh": "传递恩惠",
         "descriptors": ["Teamwork"],
         "source": ["Distant Realms pg. 33"]
     },
@@ -17228,12 +17618,14 @@ var featDict = {
     "pathologist":     {
         "key": "pathologist",
         "name": "Pathologist",
+        "name_zh": "病理学家",
         "source": ["Blood of the Ancients pg. 20"],
         "prerequisiteKeys": ["incredible healer"]
     },
     "patient strike":     {
         "key": "patient strike",
         "name": "Patient Strike",
+        "name_zh": "蓄势待发",
         "descriptors": ["Combat"],
         "source": ["Pathfinder Society Primer pg. 8"]
     },
@@ -17252,6 +17644,7 @@ var featDict = {
     "peacemaker":     {
         "key": "peacemaker",
         "name": "Peacemaker",
+        "name_zh": "和平缔造者",
         "source": ["Champions of Purity pg. 23"]
     },
     "peerless courtier":     {
@@ -17268,6 +17661,7 @@ var featDict = {
     "penetrating stare":     {
         "key": "penetrating stare",
         "name": "Penetrating Stare",
+        "name_zh": "穿透注视",
         "descriptors":         [
             "Combat",
             "Stare"
@@ -17396,6 +17790,7 @@ var featDict = {
     "perturbing stare":     {
         "key": "perturbing stare",
         "name": "Perturbing Stare",
+        "name_zh": "烦扰注视",
         "descriptors":         [
             "Combat",
             "Stare"
@@ -17444,6 +17839,7 @@ var featDict = {
     "phantom ally":     {
         "key": "phantom ally",
         "name": "Phantom Ally",
+        "name_zh": "魅影盟友",
         "source": ["Haunted Heroes Handbook pg. 4"]
     },
     "phantom fighter":     {
@@ -17476,6 +17872,7 @@ var featDict = {
     "piercing chant":     {
         "key": "piercing chant",
         "name": "Piercing Chant",
+        "name_zh": "刺耳歌唱",
         "source": ["Heroes of Golarion pg. 9"]
     },
     "piercing gambit":     {
@@ -17616,6 +18013,7 @@ var featDict = {
     "planar hunter":     {
         "key": "planar hunter",
         "name": "Planar Hunter",
+        "name_zh": "位面猎手",
         "source": ["Champions of Balance pg. 13"]
     },
     "planar infusion":     {
@@ -17628,6 +18026,7 @@ var featDict = {
     "planar mentor":     {
         "key": "planar mentor",
         "name": "Planar Mentor",
+        "name_zh": "位面训导",
         "source": ["Plane-Hopper's Handbook pg. 26"]
     },
     "planar preservationist":     {
@@ -17673,6 +18072,7 @@ var featDict = {
     "planned spontaneity":     {
         "key": "planned spontaneity",
         "name": "Planned Spontaneity",
+        "name_zh": "有备无患",
         "source": ["Pathfinder Society Primer pg. 13"]
     },
     "play to the crowd":     {
@@ -17710,6 +18110,7 @@ var featDict = {
     "poison focus":     {
         "key": "poison focus",
         "name": "Poison Focus",
+        "name_zh": "毒素专攻",
         "source": ["Alchemy Manual pg. 8"]
     },
     "poison resin":     {
@@ -17734,6 +18135,7 @@ var featDict = {
     "polyglot familiar":     {
         "key": "polyglot familiar",
         "name": "Polyglot Familiar",
+        "name_zh": "巧言魔宠",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -17753,11 +18155,13 @@ var featDict = {
     "poppet familiar":     {
         "key": "poppet familiar",
         "name": "Poppet Familiar",
+        "name_zh": "人偶魔宠",
         "source": ["Adventurer's Armory 2 pg. 31"]
     },
     "porcupine defense":     {
         "key": "porcupine defense",
         "name": "Porcupine Defense",
+        "name_zh": "以牙还牙",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -17792,11 +18196,13 @@ var featDict = {
     "possessed hand":     {
         "key": "possessed hand",
         "name": "Possessed Hand",
+        "name_zh": "鬼上手",
         "source": ["Haunted Heroes Handbook pg. 25"]
     },
     "potent holy symbol":     {
         "key": "potent holy symbol",
         "name": "Potent Holy Symbol",
+        "name_zh": "强力圣徽",
         "source": ["Blood of the Night pg. 28"]
     },
     "potion glutton":     {
@@ -17841,6 +18247,7 @@ var featDict = {
     "practical kata":     {
         "key": "practical kata",
         "name": "Practical Kata",
+        "name_zh": "实用形",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -17857,6 +18264,7 @@ var featDict = {
     "practiced leadership":     {
         "key": "practiced leadership",
         "name": "Practiced Leadership",
+        "name_zh": "熟练领导者",
         "source": ["Champions of Balance pg. 15"],
         "prerequisiteKeys": ["leadership"]
     },
@@ -17875,6 +18283,7 @@ var featDict = {
     "precipice strike":     {
         "key": "precipice strike",
         "name": "Precipice Strike",
+        "name_zh": "峭壁打击",
         "descriptors": ["Combat"],
         "source": ["Heroes from the Fringe pg. 26"]
     },
@@ -17919,6 +18328,7 @@ var featDict = {
     "pressure adept":     {
         "key": "pressure adept",
         "name": "Pressure Adept",
+        "name_zh": "压力适应",
         "source": ["Aquatic Adventures pg. 58"]
     },
     "prestigious spellcaster":     {
@@ -17942,11 +18352,13 @@ var featDict = {
     "primal kineticist":     {
         "key": "primal kineticist",
         "name": "Primal Kineticist",
+        "name_zh": "原能操念使",
         "source": ["People of the Wastes pg. 6"]
     },
     "primal strike":     {
         "key": "primal strike",
         "name": "Primal Strike",
+        "name_zh": "原能打击",
         "descriptors": ["Combat"],
         "source": ["People of the Wastes pg. 7"],
         "prerequisiteKeys": ["improved unarmed strike"]
@@ -18102,6 +18514,7 @@ var featDict = {
     "psychovore master":     {
         "key": "psychovore master",
         "name": "Psychovore Master",
+        "name_zh": "噬心大师",
         "descriptors": ["Combat"],
         "source": ["Pathfinder: Spiral of Bones #3 pg. 29"],
         "prerequisiteKeys":         [
@@ -18113,6 +18526,7 @@ var featDict = {
     "psychovore strike":     {
         "key": "psychovore strike",
         "name": "Psychovore Strike",
+        "name_zh": "噬心击",
         "descriptors": ["Combat"],
         "source": ["Pathfinder: Spiral of Bones #3 pg. 29"],
         "prerequisiteKeys":         [
@@ -18123,6 +18537,7 @@ var featDict = {
     "psychovore style":     {
         "key": "psychovore style",
         "name": "Psychovore Style",
+        "name_zh": "噬心流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -18191,6 +18606,7 @@ var featDict = {
     "punishing step":     {
         "key": "punishing step",
         "name": "Punishing Step",
+        "name_zh": "梅花步",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 15"],
         "prerequisiteKeys": ["dodge"]
@@ -18333,6 +18749,7 @@ var featDict = {
     "quick preparation":     {
         "key": "quick preparation",
         "name": "Quick Preparation",
+        "name_zh": "快速准备",
         "source": ["Pathfinder Society Primer pg. 9"]
     },
     "quick reposition":     {
@@ -18413,6 +18830,7 @@ var featDict = {
     "quillbreaker defense":     {
         "key": "quillbreaker defense",
         "name": "Quillbreaker Defense",
+        "name_zh": "碎刺防御",
         "descriptors": ["Combat"],
         "source": ["Magical Marketplace pg. 6"]
     },
@@ -18532,6 +18950,7 @@ var featDict = {
     "raking claws":     {
         "key": "raking claws",
         "name": "Raking Claws",
+        "name_zh": "撕裂之爪",
         "source": ["Wilderness Origins pg. 9"]
     },
     "rallying blow":     {
@@ -18644,12 +19063,14 @@ var featDict = {
     "rat catcher":     {
         "key": "rat catcher",
         "name": "Rat Catcher",
+        "name_zh": "捕鼠者",
         "descriptors": ["Combat"],
         "source": ["Heroes of the Streets pg. 29"]
     },
     "rat stack":     {
         "key": "rat stack",
         "name": "Rat Stack",
+        "name_zh": "鼠群堆叠",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -18676,6 +19097,7 @@ var featDict = {
     "reach defense":     {
         "key": "reach defense",
         "name": "Reach Defense",
+        "name_zh": "长距防御",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"]
     },
@@ -18723,6 +19145,7 @@ var featDict = {
     "read the room":     {
         "key": "read the room",
         "name": "Read the Room",
+        "name_zh": "阅读空气",
         "source": ["Inner Sea Taverns pg. 59"],
         "prerequisiteKeys": ["drunken sing-along"]
     },
@@ -18790,6 +19213,7 @@ var featDict = {
     "recall ammunition":     {
         "key": "recall ammunition",
         "name": "Recall Ammunition",
+        "name_zh": "召回弹药",
         "descriptors":         [
             "Combat",
             "Grit"
@@ -18799,6 +19223,7 @@ var featDict = {
     "reckless aim":     {
         "key": "reckless aim",
         "name": "Reckless Aim",
+        "name_zh": "鲁莽瞄准",
         "descriptors": ["Combat"],
         "source": ["Blood of Fiends pg. 25"],
         "prerequisiteKeys":         [
@@ -18847,6 +19272,7 @@ var featDict = {
     "redeemed kobold":     {
         "key": "redeemed kobold",
         "name": "Redeemed Kobold",
+        "name_zh": "晋升狗头人",
         "source": ["Kobolds of Golarion pg. 25"]
     },
     "redemption":     {
@@ -18915,6 +19341,7 @@ var featDict = {
     "reflexive trick":     {
         "key": "reflexive trick",
         "name": "Reflexive Trick",
+        "name_zh": "直觉诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 17"]
     },
@@ -18928,6 +19355,7 @@ var featDict = {
     "reinforced crafting":     {
         "key": "reinforced crafting",
         "name": "Reinforced Crafting",
+        "name_zh": "强固作成",
         "descriptors": ["Item Creation"],
         "source": ["People of the Wastes pg. 27"],
         "prerequisiteKeys": ["craft magic arms and armor"]
@@ -18964,6 +19392,7 @@ var featDict = {
     "relic breaker":     {
         "key": "relic breaker",
         "name": "Relic Breaker",
+        "name_zh": "圣物破坏者",
         "descriptors": ["Combat"],
         "source": ["Path of the Hellknight pg. 39"],
         "prerequisiteKeys":         [
@@ -18975,6 +19404,7 @@ var featDict = {
     "relic familiarity":     {
         "key": "relic familiarity",
         "name": "Relic Familiarity",
+        "name_zh": "遗物精通",
         "source": ["Legacy of Dragons pg. 19"]
     },
     "religious pilgrim":     {
@@ -19005,6 +19435,7 @@ var featDict = {
     "rending swarm":     {
         "key": "rending swarm",
         "name": "Rending Swarm",
+        "name_zh": "鼠群撕裂",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -19015,6 +19446,7 @@ var featDict = {
     "renown":     {
         "key": "renown",
         "name": "Renown",
+        "name_zh": "声誉",
         "source": ["Pathfinder Society Primer pg. 9"]
     },
     "repast of heroes":     {
@@ -19061,6 +19493,7 @@ var featDict = {
     "resisting grappler":     {
         "key": "resisting grappler",
         "name": "Resisting Grappler",
+        "name_zh": "不羁者",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 7"]
     },
@@ -19085,6 +19518,7 @@ var featDict = {
     "restorative vigor":     {
         "key": "restorative vigor",
         "name": "Restorative Vigor",
+        "name_zh": "复原活力",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 15"],
         "prerequisiteKeys": ["combat vigor"]
@@ -19100,6 +19534,7 @@ var featDict = {
     "retributive summoning":     {
         "key": "retributive summoning",
         "name": "Retributive Summoning",
+        "name_zh": "惩戒召唤",
         "source": ["Plane-Hopper's Handbook pg. 6"],
         "prerequisiteKeys": ["spell focus"]
     },
@@ -19127,11 +19562,13 @@ var featDict = {
     "revered guidance":     {
         "key": "revered guidance",
         "name": "Revered Guidance",
+        "name_zh": "尊贵向导",
         "source": ["Blood of Angels pg. 25"]
     },
     "reverse somersault throw":     {
         "key": "reverse somersault throw",
         "name": "Reverse Somersault Throw",
+        "name_zh": "反身翻腾",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -19150,6 +19587,7 @@ var featDict = {
     "reviving channel":     {
         "key": "reviving channel",
         "name": "Reviving Channel",
+        "name_zh": "复兴导能",
         "source": ["Distant Realms pg. 33"]
     },
     "reward of grace":     {
@@ -19167,6 +19605,7 @@ var featDict = {
     "reward of the faithful":     {
         "key": "reward of the faithful",
         "name": "Reward of the Faithful",
+        "name_zh": "信仰回报",
         "source": ["Divine Anthology pg. 11"]
     },
     "rhabdomancy":     {
@@ -19291,6 +19730,7 @@ var featDict = {
     "river raider":     {
         "key": "river raider",
         "name": "River Raider",
+        "name_zh": "河流袭击者",
         "descriptors": ["Combat"],
         "source":         [
             "Ultimate Wilderness pg. 117",
@@ -19313,11 +19753,13 @@ var featDict = {
     "robust stench":     {
         "key": "robust stench",
         "name": "Robust Stench",
+        "name_zh": "强健恶臭",
         "source": ["Heroes of Golarion pg. 10"]
     },
     "roll with it":     {
         "key": "roll with it",
         "name": "Roll With It",
+        "name_zh": "消力/滚过它",
         "descriptors": ["Combat"],
         "source": ["Goblins of Golarion pg. 25"]
     },
@@ -19425,6 +19867,7 @@ var featDict = {
     "sacred pyromania":     {
         "key": "sacred pyromania",
         "name": "Sacred Pyromania",
+        "name_zh": "神圣纵火狂",
         "source": ["Heroes of Golarion pg. 10"]
     },
     "sacred summons":     {
@@ -19465,6 +19908,7 @@ var featDict = {
     "sage's guidance":     {
         "key": "sage's guidance",
         "name": "Sage's Guidance",
+        "name_zh": "锦囊妙计",
         "descriptors": ["Familiar"],
         "source": ["Familiar Folio pg. 19"]
     },
@@ -19535,6 +19979,7 @@ var featDict = {
     "savage leap":     {
         "key": "savage leap",
         "name": "Savage Leap",
+        "name_zh": "野蛮飞跃",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 23"],
         "prerequisiteKeys":         [
@@ -19546,6 +19991,7 @@ var featDict = {
     "savage slam":     {
         "key": "savage slam",
         "name": "Savage Slam",
+        "name_zh": "野蛮摔投",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 23"],
         "prerequisiteKeys":         [
@@ -19669,6 +20115,7 @@ var featDict = {
     "schooled resolve":     {
         "key": "schooled resolve",
         "name": "Schooled Resolve",
+        "name_zh": "科班吸血鬼猎人",
         "source": ["Blood of the Night pg. 28"]
     },
     "scion of the land":     {
@@ -19725,11 +20172,13 @@ var featDict = {
     "scrutinize spell":     {
         "key": "scrutinize spell",
         "name": "Scrutinize Spell",
+        "name_zh": "审析法术",
         "source": ["Path of the Hellknight pg. 39"]
     },
     "sculpting the river":     {
         "key": "sculpting the river",
         "name": "Sculpting the River",
+        "name_zh": "雕饰激流",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -19788,6 +20237,7 @@ var featDict = {
     "second wind":     {
         "key": "second wind",
         "name": "Second Wind",
+        "name_zh": "复苏之风",
         "descriptors":         [
             "Combat",
             "Performance"
@@ -19809,11 +20259,13 @@ var featDict = {
     "secret of magical discipline":     {
         "key": "secret of magical discipline",
         "name": "Secret of Magical Discipline",
+        "name_zh": "魔法训练秘闻",
         "source": ["Chronicle of Legends pg. 9"]
     },
     "secret of steel-shattering spirit":     {
         "key": "secret of steel-shattering spirit",
         "name": "Secret of Steel-Shattering Spirit",
+        "name_zh": "碎钢心境之秘",
         "source": ["Pathfinder Campaign Setting pg. 85"],
         "prerequisiteKeys": ["improved unarmed strike"]
     },
@@ -19940,6 +20392,7 @@ var featDict = {
     "selfish channel":     {
         "key": "selfish channel",
         "name": "Selfish Channel",
+        "name_zh": "自私引导",
         "source": ["Legacy of the First World pg. 23"]
     },
     "sense allies":     {
@@ -19985,6 +20438,7 @@ var featDict = {
     "sensory control":     {
         "key": "sensory control",
         "name": "Sensory Control",
+        "name_zh": "感觉制御",
         "descriptors": ["Meditation"],
         "source": ["Blood of the Beast pg. 29"],
         "prerequisiteKeys":         [
@@ -20076,6 +20530,7 @@ var featDict = {
     "shadow magic defense":     {
         "key": "shadow magic defense",
         "name": "Shadow Magic Defense",
+        "name_zh": "阴影法术防御",
         "source": ["Blood of Shadows pg. 7"]
     },
     "shadow shroud":     {
@@ -20101,6 +20556,7 @@ var featDict = {
     "shadow's embrace":     {
         "key": "shadow's embrace",
         "name": "Shadow's Embrace",
+        "name_zh": "阴影的拥抱",
         "source": ["Chronicle of Legends pg. 9"]
     },
     "shadow's shroud":     {
@@ -20184,12 +20640,14 @@ var featDict = {
     "shapechanging savage":     {
         "key": "shapechanging savage",
         "name": "Shapechanging Savage",
+        "name_zh": "野蛮变形",
         "source": ["Blood of the Beast pg. 13"],
         "prerequisiteKeys": ["improved feint"]
     },
     "shapeless familiar":     {
         "key": "shapeless familiar",
         "name": "Shapeless Familiar",
+        "name_zh": "无定型魔宠",
         "source": ["Wilderness Origins pg. 22"]
     },
     "shapeshifter foil":     {
@@ -20201,6 +20659,7 @@ var featDict = {
     "shapeshifter savage":     {
         "key": "shapeshifter savage",
         "name": "Shapeshifter Savage",
+        "name_zh": "化形猛击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 19"],
         "prerequisiteKeys":         [
@@ -20211,6 +20670,7 @@ var featDict = {
     "shapeshifter style":     {
         "key": "shapeshifter style",
         "name": "Shapeshifter Style",
+        "name_zh": "化形势",
         "descriptors":         [
             "Combat",
             "Style"
@@ -20220,6 +20680,7 @@ var featDict = {
     "shapeshifter twist":     {
         "key": "shapeshifter twist",
         "name": "Shapeshifter Twist",
+        "name_zh": "化形扭",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 19"],
         "prerequisiteKeys": ["shapeshifter style"]
@@ -20252,6 +20713,7 @@ var featDict = {
     "share spells":     {
         "key": "share spells",
         "name": "Share Spells",
+        "name_zh": "分享法术",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"],
         "prerequisiteKeys": ["bonded mind"]
@@ -20284,6 +20746,7 @@ var featDict = {
     "shared quarry":     {
         "key": "shared quarry",
         "name": "Shared Quarry",
+        "name_zh": "共享狩猎目标",
         "descriptors": ["Combat"],
         "source": ["Monster Hunter's Handbook pg. 5"]
     },
@@ -20310,6 +20773,7 @@ var featDict = {
     "shark leap":     {
         "key": "shark leap",
         "name": "Shark Leap",
+        "name_zh": "鲨跃",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 58"],
         "prerequisiteKeys":         [
@@ -20321,6 +20785,7 @@ var featDict = {
     "shark style":     {
         "key": "shark style",
         "name": "Shark Style",
+        "name_zh": "猛鲨流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -20331,6 +20796,7 @@ var featDict = {
     "shark tear":     {
         "key": "shark tear",
         "name": "Shark Tear",
+        "name_zh": "鲨裂",
         "descriptors": ["Combat"],
         "source": ["Aquatic Adventures pg. 59"],
         "prerequisiteKeys":         [
@@ -20405,6 +20871,7 @@ var featDict = {
     "sheltering stubborness":     {
         "key": "sheltering stubborness",
         "name": "Sheltering Stubborness",
+        "name_zh": "矢志不移",
         "source": ["Antihero's Handbook pg. 9"],
         "prerequisiteKeys": ["iron will"]
     },
@@ -20506,6 +20973,7 @@ var featDict = {
     "shield snag":     {
         "key": "shield snag",
         "name": "Shield Snag",
+        "name_zh": "盾钩",
         "descriptors": ["Combat"],
         "source": ["Magical Marketplace pg. 6"],
         "prerequisiteKeys":         [
@@ -20577,6 +21045,7 @@ var featDict = {
     "shielded staff ambush":     {
         "key": "shielded staff ambush",
         "name": "Shielded Staff Ambush",
+        "name_zh": "盾杖突袭",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 15"],
         "prerequisiteKeys":         [
@@ -20587,6 +21056,7 @@ var featDict = {
     "shielded staff master":     {
         "key": "shielded staff master",
         "name": "Shielded Staff Master",
+        "name_zh": "盾杖大师",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 15"],
         "prerequisiteKeys":         [
@@ -20598,6 +21068,7 @@ var featDict = {
     "shielded staff style":     {
         "key": "shielded staff style",
         "name": "Shielded Staff Style",
+        "name_zh": "盾杖流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -20639,6 +21110,7 @@ var featDict = {
     "shikigami manipulation":     {
         "key": "shikigami manipulation",
         "name": "Shikigami Manipulation",
+        "name_zh": "式神操纵",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -20651,6 +21123,7 @@ var featDict = {
     "shikigami mimicry":     {
         "key": "shikigami mimicry",
         "name": "Shikigami Mimicry",
+        "name_zh": "式神模仿",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 9"],
         "prerequisiteKeys":         [
@@ -20661,6 +21134,7 @@ var featDict = {
     "shikigami style":     {
         "key": "shikigami style",
         "name": "Shikigami Style",
+        "name_zh": "式神流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -20713,6 +21187,7 @@ var featDict = {
     "shrapnel strike":     {
         "key": "shrapnel strike",
         "name": "Shrapnel Strike",
+        "name_zh": "碎片打击",
         "descriptors": ["Combat"],
         "source": ["Champions of Corruption pg. 23"],
         "prerequisiteKeys":         [
@@ -20821,6 +21296,7 @@ var featDict = {
     "signature strike style":     {
         "key": "signature strike style",
         "name": "Signature Strike Style",
+        "name_zh": "印黥流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -20835,6 +21311,7 @@ var featDict = {
     "signature strike taunt":     {
         "key": "signature strike taunt",
         "name": "Signature Strike Taunt",
+        "name_zh": "印黥以辱",
         "descriptors": ["Combat"],
         "source": ["People of the Wastes pg. 10"],
         "prerequisiteKeys":         [
@@ -20846,6 +21323,7 @@ var featDict = {
     "signature strike triumph":     {
         "key": "signature strike triumph",
         "name": "Signature Strike Triumph",
+        "name_zh": "印黥扬威",
         "descriptors": ["Combat"],
         "source": ["People of the Wastes pg. 11"],
         "prerequisiteKeys":         [
@@ -20921,6 +21399,7 @@ var featDict = {
     "sincere flattery":     {
         "key": "sincere flattery",
         "name": "Sincere Flattery",
+        "name_zh": "诚挚恭维",
         "source": ["Legacy of Dragons pg. 19"]
     },
     "sinister reputation":     {
@@ -20948,6 +21427,7 @@ var featDict = {
     "siphon poison":     {
         "key": "siphon poison",
         "name": "Siphon Poison",
+        "name_zh": "吮毒",
         "source": ["Champions of Purity pg. 23"]
     },
     "siphoning blade":     {
@@ -21053,6 +21533,7 @@ var featDict = {
     "skyseeker impact":     {
         "key": "skyseeker impact",
         "name": "Skyseeker Impact",
+        "name_zh": "寻天冲",
         "descriptors": ["Combat"],
         "source": ["Blood of the Ancients pg. 28"],
         "prerequisiteKeys":         [
@@ -21064,6 +21545,7 @@ var featDict = {
     "skyseeker style":     {
         "key": "skyseeker style",
         "name": "Skyseeker Style",
+        "name_zh": "寻天流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -21074,6 +21556,7 @@ var featDict = {
     "skyseeker thrash":     {
         "key": "skyseeker thrash",
         "name": "Skyseeker Thrash",
+        "name_zh": "寻天惩",
         "descriptors": ["Combat"],
         "source": ["Blood of the Ancients pg. 28"],
         "prerequisiteKeys":         [
@@ -21294,6 +21777,7 @@ var featDict = {
     "smashing impact":     {
         "key": "smashing impact",
         "name": "Smashing Impact",
+        "name_zh": "粉碎冲击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -21498,6 +21982,7 @@ var featDict = {
     "sneaky vagabond":     {
         "key": "sneaky vagabond",
         "name": "Sneaky Vagabond",
+        "name_zh": "匿迹浪客",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "sniper shot":     {
@@ -21521,6 +22006,7 @@ var featDict = {
     "snoutgrip":     {
         "key": "snoutgrip",
         "name": "Snoutgrip",
+        "name_zh": "擒鼻锁嘴",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -21572,6 +22058,7 @@ var featDict = {
     "solo maneuvers":     {
         "key": "solo maneuvers",
         "name": "Solo Maneuvers",
+        "name_zh": "孤狼独舞",
         "descriptors": ["Combat"],
         "source": ["Bastards of Golarion pg. 23"]
     },
@@ -21605,18 +22092,21 @@ var featDict = {
     "soulblade":     {
         "key": "soulblade",
         "name": "Soulblade",
+        "name_zh": "魂刃",
         "descriptors": ["Combat"],
         "source": ["Haunted Heroes Handbook pg. 4"]
     },
     "soulless gaze":     {
         "key": "soulless gaze",
         "name": "Soulless Gaze",
+        "name_zh": "摄魂凝视",
         "descriptors": ["Damnation"],
         "source": ["Champions of Corruption pg. 17"]
     },
     "soulwrecking strike":     {
         "key": "soulwrecking strike",
         "name": "Soulwrecking Strike",
+        "name_zh": "灵魂打击",
         "descriptors": ["Combat"],
         "source": ["Haunted Heroes Handbook pg. 7"],
         "prerequisiteKeys": ["vital strike"]
@@ -21630,6 +22120,7 @@ var featDict = {
     "spark of the uncanny":     {
         "key": "spark of the uncanny",
         "name": "Spark of the Uncanny",
+        "name_zh": "违和感",
         "source": ["Wilderness Origins pg. 22"]
     },
     "spawnlink":     {
@@ -21693,6 +22184,7 @@ var featDict = {
     "special delivery":     {
         "key": "special delivery",
         "name": "Special Delivery",
+        "name_zh": "特殊快递",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"],
         "prerequisiteKeys":         [
@@ -21812,17 +22304,20 @@ var featDict = {
     "spell sponge":     {
         "key": "spell sponge",
         "name": "Spell Sponge",
+        "name_zh": "法术海绵",
         "source": ["Animal Archive pg. 19"]
     },
     "spell synergy":     {
         "key": "spell synergy",
         "name": "Spell Synergy",
+        "name_zh": "协同法术",
         "descriptors": ["Teamwork"],
         "source": ["Legacy of the First World pg. 19"]
     },
     "spell trick":     {
         "key": "spell trick",
         "name": "Spell Trick",
+        "name_zh": "法术诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 17"]
     },
@@ -21900,6 +22395,7 @@ var featDict = {
     "spirit ally":     {
         "key": "spirit ally",
         "name": "Spirit Ally",
+        "name_zh": "精魄盟友",
         "source": ["Haunted Heroes Handbook pg. 25"]
     },
     "spirit beacon":     {
@@ -21942,6 +22438,7 @@ var featDict = {
     "spirit oni master":     {
         "key": "spirit oni master",
         "name": "Spirit Oni Master",
+        "name_zh": "十方鬼众",
         "source": ["Haunted Heroes Handbook pg. 4"]
     },
     "spirit rebuke":     {
@@ -21956,6 +22453,7 @@ var featDict = {
     "spirit ridden":     {
         "key": "spirit ridden",
         "name": "Spirit Ridden",
+        "name_zh": "精魄受体",
         "source": ["Haunted Heroes Handbook pg. 25"]
     },
     "spirit sense":     {
@@ -22033,6 +22531,7 @@ var featDict = {
     "spiritual training":     {
         "key": "spiritual training",
         "name": "Spiritual Training",
+        "name_zh": "精神训练",
         "source": ["Haunted Heroes Handbook pg. 25"]
     },
     "spiritualist's call":     {
@@ -22061,6 +22560,7 @@ var featDict = {
     "splash weapon mastery":     {
         "key": "splash weapon mastery",
         "name": "Splash Weapon Mastery",
+        "name_zh": "溅射武器大师",
         "source": ["Adventurer's Armory pg. 31"]
     },
     "splintering weapon":     {
@@ -22085,6 +22585,7 @@ var featDict = {
     "split trick":     {
         "key": "split trick",
         "name": "Split Trick",
+        "name_zh": "分裂诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 17"]
     },
@@ -22200,6 +22701,7 @@ var featDict = {
     "squirming pile":     {
         "key": "squirming pile",
         "name": "Squirming Pile",
+        "name_zh": "蠕动鼠堆",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -22217,6 +22719,7 @@ var featDict = {
     "stable gallop":     {
         "key": "stable gallop",
         "name": "Stable Gallop",
+        "name_zh": "稳健奔驰",
         "source": ["Animal Archive pg. 19"]
     },
     "stable spell":     {
@@ -22228,6 +22731,7 @@ var featDict = {
     "stag horns":     {
         "key": "stag horns",
         "name": "Stag Horns",
+        "name_zh": "鹿角击",
         "descriptors": ["Combat"],
         "source": ["Heroes of the Wild pg. 23"],
         "prerequisiteKeys":         [
@@ -22240,6 +22744,7 @@ var featDict = {
     "stag submission":     {
         "key": "stag submission",
         "name": "Stag Submission",
+        "name_zh": "鹿绞击",
         "descriptors": ["Combat"],
         "source": ["Heroes of the Wild pg. 23"],
         "prerequisiteKeys":         [
@@ -22352,6 +22857,7 @@ var featDict = {
     "startling shapechanger":     {
         "key": "startling shapechanger",
         "name": "Startling Shapechanger",
+        "name_zh": "惊人变形",
         "source": ["Blood of the Beast pg. 14"],
         "prerequisiteKeys": ["dazzling display"]
     },
@@ -22397,6 +22903,7 @@ var featDict = {
     "steadfast mind":     {
         "key": "steadfast mind",
         "name": "Steadfast Mind",
+        "name_zh": "魔法回收",
         "source": ["Pathfinder Society Primer pg. 8"]
     },
     "steadfast personality":     {
@@ -22448,6 +22955,7 @@ var featDict = {
     "steam spell":     {
         "key": "steam spell",
         "name": "Steam Spell",
+        "name_zh": "蒸汽法术",
         "descriptors": ["Metamagic"],
         "source": ["Aquatic Adventures pg. 59"]
     },
@@ -22471,6 +22979,7 @@ var featDict = {
     "step of the flighty fey":     {
         "key": "step of the flighty fey",
         "name": "Step of the Flighty Fey",
+        "name_zh": "轻盈妖精的步伐",
         "source": ["Legacy of the First World pg. 8"]
     },
     "step up and strike":     {
@@ -22504,6 +23013,7 @@ var featDict = {
     "stick-fighting counter":     {
         "key": "stick-fighting counter",
         "name": "Stick-Fighting Counter",
+        "name_zh": "棍斗截击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 12"],
         "prerequisiteKeys": ["stick-fighting style"]
@@ -22511,6 +23021,7 @@ var featDict = {
     "stick-fighting maneuver":     {
         "key": "stick-fighting maneuver",
         "name": "Stick-Fighting Maneuver",
+        "name_zh": "棍斗战技",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 12"],
         "prerequisiteKeys":         [
@@ -22521,6 +23032,7 @@ var featDict = {
     "stick-fighting style":     {
         "key": "stick-fighting style",
         "name": "Stick-Fighting Style",
+        "name_zh": "棍斗流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -22537,6 +23049,7 @@ var featDict = {
     "stock-striker style":     {
         "key": "stock-striker style",
         "name": "Stock-Striker Style",
+        "name_zh": "枪托势",
         "descriptors":         [
             "Combat",
             "Style"
@@ -22546,6 +23059,7 @@ var featDict = {
     "stock-striker sweep":     {
         "key": "stock-striker sweep",
         "name": "Stock-Striker Sweep",
+        "name_zh": "枪托横扫",
         "descriptors": ["Combat"],
         "source": ["People of the Wastes pg. 11"],
         "prerequisiteKeys": ["stock-striker style"]
@@ -22553,6 +23067,7 @@ var featDict = {
     "stock-striker takedown":     {
         "key": "stock-striker takedown",
         "name": "Stock-Striker Takedown",
+        "name_zh": "枪托抡倒",
         "descriptors": ["Combat"],
         "source": ["People of the Wastes pg. 11"],
         "prerequisiteKeys":         [
@@ -22648,6 +23163,7 @@ var featDict = {
     "stone to flesh savant":     {
         "key": "stone to flesh savant",
         "name": "Stone to Flesh Savant",
+        "name_zh": "解除石化专家",
         "source": ["Monster Hunter's Handbook pg. 15"]
     },
     "stone-faced":     {
@@ -22659,6 +23175,7 @@ var featDict = {
     "stone-handed":     {
         "key": "stone-handed",
         "name": "Stone-Handed",
+        "name_zh": "碎石拳",
         "descriptors": ["Combat"],
         "source": ["Elemental Master's Handbook pg. 10"],
         "prerequisiteKeys": ["stunning fist"]
@@ -22682,11 +23199,13 @@ var featDict = {
     "storm breaker":     {
         "key": "storm breaker",
         "name": "Storm Breaker",
+        "name_zh": "风暴粉碎者",
         "source": ["Elemental Master's Handbook pg. 15"]
     },
     "storm of arrows":     {
         "key": "storm of arrows",
         "name": "Storm of Arrows",
+        "name_zh": "箭雨风暴",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 9"]
     },
@@ -22736,6 +23255,7 @@ var featDict = {
     "strange yield":     {
         "key": "strange yield",
         "name": "Strange Yield",
+        "name_zh": "奇妙收益",
         "source": ["Legacy of the First World pg. 8"]
     },
     "strangler (mc)":     {
@@ -22903,6 +23423,7 @@ var featDict = {
     "studied expertise":     {
         "key": "studied expertise",
         "name": "Studied Expertise",
+        "name_zh": "解说之策",
         "source": ["Haunted Heroes Handbook pg. 6"]
     },
     "studied spell":     {
@@ -22977,6 +23498,7 @@ var featDict = {
     "stunning irruption":     {
         "key": "stunning irruption",
         "name": "Stunning Irruption",
+        "name_zh": "惊骇闯入",
         "descriptors": ["Combat"],
         "source": ["Champions of Corruption pg. 23"],
         "prerequisiteKeys": ["power attack"]
@@ -22996,6 +23518,7 @@ var featDict = {
     "stupefying strike":     {
         "key": "stupefying strike",
         "name": "Stupefying Strike",
+        "name_zh": "迷魂拳",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 7"],
         "prerequisiteKeys": ["improved unarmed strike"]
@@ -23063,6 +23586,7 @@ var featDict = {
     "subtle poisoner":     {
         "key": "subtle poisoner",
         "name": "Subtle Poisoner",
+        "name_zh": "精妙施毒者",
         "source": ["Alchemy Manual pg. 8"]
     },
     "suffocating strangulation":     {
@@ -23073,11 +23597,13 @@ var featDict = {
     "summon evil monster":     {
         "key": "summon evil monster",
         "name": "Summon Evil Monster",
+        "name_zh": "召唤邪恶怪物",
         "source": ["Champions of Corruption pg. 33"]
     },
     "summon good monster":     {
         "key": "summon good monster",
         "name": "Summon Good Monster",
+        "name_zh": "召唤善良怪物",
         "source": ["Champions of Purity pg. 33"]
     },
     "summon guardian spirit":     {
@@ -23089,6 +23615,7 @@ var featDict = {
     "summon neutral monster":     {
         "key": "summon neutral monster",
         "name": "Summon Neutral Monster",
+        "name_zh": "召唤中立怪物",
         "source": ["Champions of Balance pg. 33"]
     },
     "summon plant ally":     {
@@ -23119,6 +23646,7 @@ var featDict = {
     "sunblade":     {
         "key": "sunblade",
         "name": "Sunblade",
+        "name_zh": "日耀斩",
         "source": ["Elemental Master's Handbook pg. 7"],
         "prerequisiteKeys": ["word of healing"]
     },
@@ -23150,6 +23678,7 @@ var featDict = {
     "sunlit strike":     {
         "key": "sunlit strike",
         "name": "Sunlit Strike",
+        "name_zh": "阳光打击",
         "source": ["Blood of Angels pg. 25"],
         "prerequisiteKeys": ["arcane strike"]
     },
@@ -23196,6 +23725,7 @@ var featDict = {
     "supernal feast":     {
         "key": "supernal feast",
         "name": "Supernal Feast",
+        "name_zh": "圣餐",
         "source": ["Blood of Angels pg. 25"]
     },
     "supernatural spy":     {
@@ -23263,6 +23793,7 @@ var featDict = {
     "sure-footed":     {
         "key": "sure-footed",
         "name": "Sure-Footed",
+        "name_zh": "脚踏实地",
         "source": ["Animal Archive pg. 19"]
     },
     "sure-handed alchemy":     {
@@ -23318,6 +23849,7 @@ var featDict = {
     "surprising combatant":     {
         "key": "surprising combatant",
         "name": "Surprising Combatant",
+        "name_zh": "意外战斗者",
         "descriptors": ["Combat"],
         "source": ["Blood of the Moon pg. 23"],
         "prerequisiteKeys": ["improved initiative"]
@@ -23325,6 +23857,7 @@ var featDict = {
     "surprising strategy":     {
         "key": "surprising strategy",
         "name": "Surprising Strategy",
+        "name_zh": "惊奇战术",
         "descriptors": ["Combat"],
         "source": ["Chronicle of Legends pg. 9"]
     },
@@ -23364,6 +23897,7 @@ var featDict = {
     "swap trick":     {
         "key": "swap trick",
         "name": "Swap Trick",
+        "name_zh": "转换诡计",
         "descriptors": ["Trick"],
         "source": ["Psychic Anthology pg. 17"]
     },
@@ -23375,18 +23909,21 @@ var featDict = {
     "swarm scatter":     {
         "key": "swarm scatter",
         "name": "Swarm Scatter",
+        "name_zh": "集群散布",
         "descriptors": ["Teamwork"],
         "source": ["Blood of the Moon pg. 19"]
     },
     "swarm strike":     {
         "key": "swarm strike",
         "name": "Swarm Strike",
+        "name_zh": "集群攻击",
         "descriptors": ["Teamwork"],
         "source": ["Blood of the Moon pg. 19"]
     },
     "sweeping disarm":     {
         "key": "sweeping disarm",
         "name": "Sweeping Disarm",
+        "name_zh": "横扫卸武",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -23397,6 +23934,7 @@ var featDict = {
     "sweeping dodge":     {
         "key": "sweeping dodge",
         "name": "Sweeping Dodge",
+        "name_zh": "回旋闪避",
         "descriptors": ["Combat"],
         "source": ["People of the River pg. 12"],
         "prerequisiteKeys": ["dodge"]
@@ -23485,6 +24023,7 @@ var featDict = {
     "sword's shadow":     {
         "key": "sword's shadow",
         "name": "Sword's Shadow",
+        "name_zh": "剑影",
         "descriptors": ["Combat"],
         "source": ["Heroes of Golarion pg. 7"],
         "prerequisiteKeys": ["deft hands"]
@@ -23581,6 +24120,7 @@ var featDict = {
     "tail maneuvers":     {
         "key": "tail maneuvers",
         "name": "Tail Maneuvers",
+        "name_zh": "尾部技巧",
         "source": ["Legacy of Dragons pg. 19"]
     },
     "tail terror":     {
@@ -23600,6 +24140,7 @@ var featDict = {
     "take a breather":     {
         "key": "take a breather",
         "name": "Take a Breather",
+        "name_zh": "借机喘息",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 15"],
         "prerequisiteKeys": ["combat vigor"]
@@ -23607,6 +24148,7 @@ var featDict = {
     "take the hit":     {
         "key": "take the hit",
         "name": "Take the Hit",
+        "name_zh": "吃下这一击",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"],
         "prerequisiteKeys": ["bonded mind"]
@@ -23620,6 +24162,7 @@ var featDict = {
     "taldan conscript":     {
         "key": "taldan conscript",
         "name": "Taldan Conscript",
+        "name_zh": "塔尔多动员兵",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "taldan duelist":     {
@@ -23640,11 +24183,13 @@ var featDict = {
     "taldan knight":     {
         "key": "taldan knight",
         "name": "Taldan Knight",
+        "name_zh": "塔尔多骑士",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "taldan squire":     {
         "key": "taldan squire",
         "name": "Taldan Squire",
+        "name_zh": "塔尔多随从",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "talented magician":     {
@@ -23656,12 +24201,14 @@ var featDict = {
     "talmandor's lifting":     {
         "key": "talmandor's lifting",
         "name": "Talmandor's Lifting",
+        "name_zh": "天堂升华",
         "descriptors": ["Achievement"],
         "source": ["Andoran, Spirit of Liberty pg. 13"]
     },
     "tandem evasion":     {
         "key": "tandem evasion",
         "name": "Tandem Evasion",
+        "name_zh": "合作规避",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -23694,6 +24241,7 @@ var featDict = {
     "tangled limbs":     {
         "key": "tangled limbs",
         "name": "Tangled Limbs",
+        "name_zh": "绊腿",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -23710,6 +24258,7 @@ var featDict = {
     "tapestry traveler":     {
         "key": "tapestry traveler",
         "name": "Tapestry Traveler",
+        "name_zh": "魔毯行者",
         "source": ["Pathfinder Society Primer pg. 13"]
     },
     "target of opportunity":     {
@@ -23774,6 +24323,7 @@ var featDict = {
     "tatzlwyrm claw style":     {
         "key": "tatzlwyrm claw style",
         "name": "Tatzlwyrm Claw Style",
+        "name_zh": "泰兹瑞亚龙爪击流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -23787,6 +24337,7 @@ var featDict = {
     "tatzlwyrm grappler":     {
         "key": "tatzlwyrm grappler",
         "name": "Tatzlwyrm Grappler",
+        "name_zh": "泰兹瑞亚龙擒抱者",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 21"],
         "prerequisiteKeys":         [
@@ -23798,6 +24349,7 @@ var featDict = {
     "tatzlwyrm rake":     {
         "key": "tatzlwyrm rake",
         "name": "Tatzlwyrm Rake",
+        "name_zh": "泰兹瑞亚龙抓腹",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 21"],
         "prerequisiteKeys":         [
@@ -23816,6 +24368,7 @@ var featDict = {
     "tavern regular":     {
         "key": "tavern regular",
         "name": "Tavern Regular",
+        "name_zh": "酒馆熟客",
         "source": ["Inner Sea Taverns pg. 59"]
     },
     "team pickpocketing":     {
@@ -23875,6 +24428,7 @@ var featDict = {
     "telepathic link":     {
         "key": "telepathic link",
         "name": "Telepathic Link",
+        "name_zh": "连通心灵感应",
         "source": ["Familiar Folio pg. 18"]
     },
     "telepathy tap":     {
@@ -23886,6 +24440,7 @@ var featDict = {
     "teleport sense":     {
         "key": "teleport sense",
         "name": "Teleport Sense",
+        "name_zh": "感应传送",
         "source": ["Pathfinder Campaign Setting pg. 99"]
     },
     "teleport tactician":     {
@@ -23983,6 +24538,7 @@ var featDict = {
     "terrifying mask":     {
         "key": "terrifying mask",
         "name": "Terrifying Mask",
+        "name_zh": "骇人面容",
         "source": ["Blood of Fiends pg. 25"],
         "prerequisiteKeys": ["monstrous mask"]
     },
@@ -24050,6 +24606,7 @@ var featDict = {
     "thousand cuts":     {
         "key": "thousand cuts",
         "name": "Thousand Cuts",
+        "name_zh": "千斩",
         "descriptors":         [
             "Combat",
             "Combination"
@@ -24242,6 +24799,7 @@ var featDict = {
     "titan's tangle":     {
         "key": "titan's tangle",
         "name": "Titan's Tangle",
+        "name_zh": "泰坦纠缠",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -24298,6 +24856,7 @@ var featDict = {
     "toppling pileup":     {
         "key": "toppling pileup",
         "name": "Toppling Pileup",
+        "name_zh": "连环倾倒",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -24401,6 +24960,7 @@ var featDict = {
     "touch of the brackish emperor":     {
         "key": "touch of the brackish emperor",
         "name": "Touch of the Brackish Emperor",
+        "name_zh": "盐海帝王之触",
         "source": ["Aquatic Adventures pg. 59"]
     },
     "touched by sacred fire":     {
@@ -24478,6 +25038,7 @@ var featDict = {
     "toxic spray":     {
         "key": "toxic spray",
         "name": "Toxic Spray",
+        "name_zh": "剧毒喷雾",
         "descriptors": ["Combat"],
         "source": ["Potions and Poisons pg. 5"],
         "prerequisiteKeys":         [
@@ -24494,6 +25055,7 @@ var featDict = {
     "toxicological timing":     {
         "key": "toxicological timing",
         "name": "Toxicological Timing",
+        "name_zh": "毒性时间",
         "source": ["Alchemy Manual pg. 8"]
     },
     "tracer fire":     {
@@ -24509,12 +25071,14 @@ var featDict = {
     "trade initiative":     {
         "key": "trade initiative",
         "name": "Trade Initiative",
+        "name_zh": "交换先攻",
         "descriptors": ["Teamwork"],
         "source": ["Distant Shores pg. 63"]
     },
     "traditional weapons":     {
         "key": "traditional weapons",
         "name": "Traditional Weapons",
+        "name_zh": "循常习故",
         "descriptors": ["Combat"],
         "source": ["Path of the Hellknight pg. 45"]
     },
@@ -24589,6 +25153,7 @@ var featDict = {
     "trepanation":     {
         "key": "trepanation",
         "name": "Trepanation",
+        "name_zh": "颅骨穿孔术",
         "source": ["Occult Origins pg. 25"]
     },
     "triangulate":     {
@@ -24619,6 +25184,7 @@ var featDict = {
     "tribal scars":     {
         "key": "tribal scars",
         "name": "Tribal Scars",
+        "name_zh": "部落伤痕",
         "source":         [
             "Adventurer's Guide pg. 133",
             "People of the North pg. 24"
@@ -24656,6 +25222,7 @@ var featDict = {
     "triple-baron":     {
         "key": "triple-baron",
         "name": "Triple-Baron",
+        "name_zh": "三相男爵",
         "descriptors": ["Gathlain Court Title"],
         "source": ["Plane-Hopper's Handbook pg. 22"],
         "prerequisiteKeys": ["fey obedience"]
@@ -24744,6 +25311,7 @@ var featDict = {
     "tumbling upset":     {
         "key": "tumbling upset",
         "name": "Tumbling Upset",
+        "name_zh": "翻滚摔绊",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 25"],
         "prerequisiteKeys":         [
@@ -25016,6 +25584,7 @@ var featDict = {
     "unbalancing blow":     {
         "key": "unbalancing blow",
         "name": "Unbalancing Blow",
+        "name_zh": "失衡击",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 7"],
         "prerequisiteKeys": ["improved unarmed strike"]
@@ -25069,6 +25638,7 @@ var featDict = {
     "uncanny activation":     {
         "key": "uncanny activation",
         "name": "Uncanny Activation",
+        "name_zh": "奇妙激活",
         "source": ["Pathfinder Society Primer pg. 11"]
     },
     "uncanny alertness":     {
@@ -25102,6 +25672,7 @@ var featDict = {
     "uncertainty":     {
         "key": "uncertainty",
         "name": "Uncertainty",
+        "name_zh": "不确定性",
         "descriptors": ["Blood Hex"],
         "source": ["Magic Tactics Toolbox pg. 29"]
     },
@@ -25115,6 +25686,7 @@ var featDict = {
     "unconquerable resolve":     {
         "key": "unconquerable resolve",
         "name": "Unconquerable Resolve",
+        "name_zh": "不屈决意",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 15"]
     },
@@ -25158,6 +25730,7 @@ var featDict = {
     "underhanded teamwork":     {
         "key": "underhanded teamwork",
         "name": "Underhanded Teamwork",
+        "name_zh": "卑鄙协作",
         "descriptors":         [
             "Combat",
             "Teamwork"
@@ -25219,6 +25792,7 @@ var featDict = {
     "unfettered rage":     {
         "key": "unfettered rage",
         "name": "Unfettered Rage",
+        "name_zh": "无拘狂暴",
         "source": ["Legacy of the First World pg. 23"]
     },
     "unfolding wind rush":     {
@@ -25285,6 +25859,7 @@ var featDict = {
     "unraveling blood":     {
         "key": "unraveling blood",
         "name": "Unraveling Blood",
+        "name_zh": "拆解之血",
         "source": ["Potions and Poisons pg. 6"],
         "prerequisiteKeys": ["dispelling blood"]
     },
@@ -25422,6 +25997,7 @@ var featDict = {
     "urban forager":     {
         "key": "urban forager",
         "name": "Urban Forager",
+        "name_zh": "城市觅食者",
         "source": ["Taldor, Echoes of Glory pg. 29"]
     },
     "urdefhan bladebreaker":     {
@@ -25445,6 +26021,7 @@ var featDict = {
     "valiant steed":     {
         "key": "valiant steed",
         "name": "Valiant Steed",
+        "name_zh": "勇猛坐骑",
         "source": ["Animal Archive pg. 19"]
     },
     "vampire animal companion":     {
@@ -25516,12 +26093,14 @@ var featDict = {
     "vaporous potion":     {
         "key": "vaporous potion",
         "name": "Vaporous Potion",
+        "name_zh": "蒸汽药水",
         "source": ["Potions and Poisons pg. 17"],
         "prerequisiteKeys": ["brew potion"]
     },
     "variant prayer scroll":     {
         "key": "variant prayer scroll",
         "name": "Variant Prayer Scroll",
+        "name_zh": "各种护尸符",
         "source": ["Blood of the Night pg. 29"]
     },
     "varisian tattoo":     {
@@ -25588,6 +26167,7 @@ var featDict = {
     "venomous stare":     {
         "key": "venomous stare",
         "name": "Venomous Stare",
+        "name_zh": "剧毒注视",
         "descriptors": ["Stare"],
         "source": ["Blood of the Beast pg. 17"]
     },
@@ -25656,6 +26236,7 @@ var featDict = {
     "versatile spontaneity":     {
         "key": "versatile spontaneity",
         "name": "Versatile Spontaneity",
+        "name_zh": "自发准备",
         "source": ["Pathfinder Society Primer pg. 9"]
     },
     "versatile summon monster":     {
@@ -25719,6 +26300,7 @@ var featDict = {
     "vile leadership":     {
         "key": "vile leadership",
         "name": "Vile Leadership",
+        "name_zh": "邪恶领导力",
         "source":         [
             "Ultimate Intrigue pg. 135",
             "Champions of Corruption pg. 14"
@@ -25727,6 +26309,7 @@ var featDict = {
     "vim and vigor":     {
         "key": "vim and vigor",
         "name": "Vim and Vigor",
+        "name_zh": "生龙活虎",
         "descriptors": ["Combat"],
         "source": ["Healer's Handbook pg. 15"],
         "prerequisiteKeys":         [
@@ -25743,6 +26326,7 @@ var featDict = {
     "violent display":     {
         "key": "violent display",
         "name": "Violent Display",
+        "name_zh": "暴力技巧",
         "descriptors": ["Combat"],
         "source": ["Blood of the Moon pg. 23"],
         "prerequisiteKeys":         [
@@ -25753,11 +26337,13 @@ var featDict = {
     "virtuous creed":     {
         "key": "virtuous creed",
         "name": "Virtuous Creed",
+        "name_zh": "美德信条",
         "source": ["Champions of Purity pg. 16"]
     },
     "virulent venom":     {
         "key": "virulent venom",
         "name": "Virulent Venom",
+        "name_zh": "致命毒液",
         "descriptors": ["Combat"],
         "source": ["Potions and Poisons pg. 5"],
         "prerequisiteKeys": ["spit venom"]
@@ -25773,6 +26359,7 @@ var featDict = {
     "viscous venom":     {
         "key": "viscous venom",
         "name": "Viscous Venom",
+        "name_zh": "粘稠毒液",
         "descriptors": ["Combat"],
         "source": ["Potions and Poisons pg. 5"],
         "prerequisiteKeys": ["spit venom"]
@@ -25896,6 +26483,7 @@ var featDict = {
     "warding blood":     {
         "key": "warding blood",
         "name": "Warding Blood",
+        "name_zh": "守护之血",
         "source": ["Potions and Poisons pg. 6"],
         "prerequisiteKeys": ["ghostbane ichor"]
     },
@@ -25945,6 +26533,7 @@ var featDict = {
     "wary smuggler":     {
         "key": "wary smuggler",
         "name": "Wary Smuggler",
+        "name_zh": "谨慎走私者",
         "source": ["Black Markets pg. 7"]
     },
     "wasp familiar":     {
@@ -25962,6 +26551,7 @@ var featDict = {
     "waterway caster":     {
         "key": "waterway caster",
         "name": "Waterway Caster",
+        "name_zh": "水上施法者",
         "source":         [
             "Ultimate Wilderness pg. 119",
             "People of the River pg. 25"
@@ -25984,6 +26574,7 @@ var featDict = {
     "wayang soothsayer":     {
         "key": "wayang soothsayer",
         "name": "Wayang Soothsayer",
+        "name_zh": "剪影人预言者",
         "source": ["Blood of Shadows pg. 11"]
     },
     "we are the wall":     {
@@ -26042,6 +26633,7 @@ var featDict = {
     "weapon shift":     {
         "key": "weapon shift",
         "name": "Weapon Shift",
+        "name_zh": "武器变形",
         "source": ["Wilderness Origins pg. 9"]
     },
     "weapon specialization":     {
@@ -26110,6 +26702,7 @@ var featDict = {
     "wheeling charge":     {
         "key": "wheeling charge",
         "name": "Wheeling Charge",
+        "name_zh": "回转冲锋",
         "descriptors": ["Combat"],
         "source": ["Cities of Golarion pg. 50"],
         "prerequisiteKeys":         [
@@ -26128,6 +26721,7 @@ var featDict = {
     "whip-shot deed":     {
         "key": "whip-shot deed",
         "name": "Whip-Shot Deed",
+        "name_zh": "连敲带打炫技",
         "descriptors": ["Grit"],
         "source": ["Magical Marketplace pg. 22"]
     },
@@ -26141,6 +26735,7 @@ var featDict = {
     "whipcrack":     {
         "key": "whipcrack",
         "name": "Whipcrack",
+        "name_zh": "甩鞭",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 24"],
         "prerequisiteKeys":         [
@@ -26151,6 +26746,7 @@ var featDict = {
     "whirling hold":     {
         "key": "whirling hold",
         "name": "Whirling Hold",
+        "name_zh": "旋风擒抱",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 23"],
         "prerequisiteKeys":         [
@@ -26186,6 +26782,7 @@ var featDict = {
     "wicked valor":     {
         "key": "wicked valor",
         "name": "Wicked Valor",
+        "name_zh": "顽恶之勇",
         "source": ["Blood of Fiends pg. 25"],
         "prerequisiteKeys":         [
             "diehard",
@@ -26224,6 +26821,7 @@ var featDict = {
     "wild speaker":     {
         "key": "wild speaker",
         "name": "Wild Speaker",
+        "name_zh": "荒野之声",
         "source": ["Legacy of the First World pg. 6"]
     },
     "wild speech":     {
@@ -26315,6 +26913,7 @@ var featDict = {
     "wind song":     {
         "key": "wind song",
         "name": "Wind Song",
+        "name_zh": "风之歌",
         "source": ["Elemental Master's Handbook pg. 19"]
     },
     "wind stance":     {
@@ -26328,6 +26927,7 @@ var featDict = {
     "wingclipper":     {
         "key": "wingclipper",
         "name": "Wingclipper",
+        "name_zh": "削翼",
         "descriptors": ["Combat"],
         "source": ["Dragonslayer's Handbook pg. 25"]
     },
@@ -26348,6 +26948,7 @@ var featDict = {
     "wings of the androsphinx":     {
         "key": "wings of the androsphinx",
         "name": "Wings of the Androsphinx",
+        "name_zh": "人面狮身之翼",
         "descriptors": ["Combat"],
         "source": ["People of the Sands pg. 13"],
         "prerequisiteKeys":         [
@@ -26457,6 +27058,7 @@ var featDict = {
     "worldwound walker":     {
         "key": "worldwound walker",
         "name": "Worldwound Walker",
+        "name_zh": "世界之伤行者",
         "source": ["Champions of Purity pg. 23"]
     },
     "worst case jinx":     {
@@ -26483,12 +27085,14 @@ var featDict = {
     "wretched curator":     {
         "key": "wretched curator",
         "name": "Wretched Curator",
+        "name_zh": "悲劣馆员",
         "descriptors": ["Story"],
         "source": ["Agents of Evil pg. 9"]
     },
     "wrist grab":     {
         "key": "wrist grab",
         "name": "Wrist Grab",
+        "name_zh": "擒腕",
         "descriptors": ["Combat"],
         "source": ["Martial Arts Handbook pg. 22"],
         "prerequisiteKeys":         [
@@ -26501,11 +27105,13 @@ var featDict = {
     "wyvaran spellcasting":     {
         "key": "wyvaran spellcasting",
         "name": "Wyvaran Spellcasting",
+        "name_zh": "翼龙人施法专精",
         "source": ["Legacy of Dragons pg. 19"]
     },
     "wyvern fury style":     {
         "key": "wyvern fury style",
         "name": "Wyvern Fury Style",
+        "name_zh": "飞龙狂怒流",
         "descriptors":         [
             "Combat",
             "Style"
@@ -26516,6 +27122,7 @@ var featDict = {
     "wyvern sting":     {
         "key": "wyvern sting",
         "name": "Wyvern Sting",
+        "name_zh": "飞龙钉刺",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 21"],
         "prerequisiteKeys":         [
@@ -26526,6 +27133,7 @@ var featDict = {
     "wyvern wing":     {
         "key": "wyvern wing",
         "name": "Wyvern Wing",
+        "name_zh": "飞龙翼击",
         "descriptors": ["Combat"],
         "source": ["Legacy of Dragons pg. 21"],
         "prerequisiteKeys":         [
@@ -26866,6 +27474,10 @@ var featTree = [
         "children":         [
                         {
                 "key": "disarming threat deed",
+                "children": []
+            },
+                        {
+                "key": "dueling cape deed",
                 "children": []
             },
                         {
@@ -33544,17 +34156,13 @@ var featTree = [
                         }]
                     },
                                         {
-                        "key": "maddening strike",
-                        "children": [                        {
-                            "key": "maddening obliteration",
-                            "children": []
-                        }]
-                    },
-                                        {
                         "key": "maddening style",
                         "children": [                        {
-                            "key": "maddening obliteration",
-                            "children": []
+                            "key": "maddening strike",
+                            "children": [                            {
+                                "key": "maddening obliteration",
+                                "children": []
+                            }]
                         }]
                     },
                                         {
@@ -33750,17 +34358,13 @@ var featTree = [
                 "children": []
             },
                         {
-                "key": "deadhand initiate",
-                "children": [                {
-                    "key": "deadhand master",
-                    "children": []
-                }]
-            },
-                        {
                 "key": "deadhand style",
                 "children": [                {
-                    "key": "deadhand master",
-                    "children": []
+                    "key": "deadhand initiate",
+                    "children": [                    {
+                        "key": "deadhand master",
+                        "children": []
+                    }]
                 }]
             },
                         {
