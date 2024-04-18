@@ -15,10 +15,12 @@ def merge_json_files(directory):
     return merged_data
 
 
-# 使用函数
-directory = 'E:\\Code\\pathfinder_database\\spells\\'  # 替换为你的目录
+directory = 'E:\\Code\\pathfinder_database\\spells\\'
 merged_data = merge_json_files(directory)
-
-# 将合并的数据保存到新的json文件中
 with open('spell-merged.json', 'w', encoding='utf-8') as f:
+    json.dump(merged_data, f, ensure_ascii=False)
+
+directory2 = 'E:\\Code\\pathfinder_database\\feats\\'
+merged_data2 = merge_json_files(directory2)
+with open('feats-merged.json', 'w', encoding='utf-8') as f:
     json.dump(merged_data, f, ensure_ascii=False)
