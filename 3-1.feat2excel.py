@@ -84,7 +84,7 @@ def process_json_to_excel(input_path):
                     'Tag': 'PF1专长'
                 }
                 df = df.append(row, ignore_index=True)
-                print(row)
+                # print(row)
             else:
                 # 处理没翻译的
                 # 构建Content列的内容
@@ -150,12 +150,12 @@ def process_json_to_excel(input_path):
                     'Tag': 'PF1专长'
                 }
                 df = df.append(row, ignore_index=True)
-                print(row)
+                # print(row)
     # 将DataFrame保存到Excel文件中
     df.to_excel(output_file, index=False)
     print('处理完成')
 
 
 # 示例调用：process_json_to_excel('path/to/your/folder')
-process_json_to_excel('C:\\Users\\chenzihan\\Desktop\\pathfinder\\feats\\')
+process_json_to_excel('E:\Code\pathfinder_database\\feats\\')
 print('处理完成')

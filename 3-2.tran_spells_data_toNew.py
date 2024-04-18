@@ -33,4 +33,4 @@ def transform_json(input_file, output_file):
 
 
 # 调用函数
-transform_json('input.json', 'pf1.spells.json')
+transform_json('pf1.spells.json', 'new_pf1.spells.json')
